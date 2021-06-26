@@ -1,0 +1,49 @@
+\documentclass[10pt,a4paper,abstract=true]{scrreprt}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{lipsum}
+
+% Referemces
+\usepackage[backend=biber,style=apa]{biblatex}
+\addbibresource{bibliography.bib}
+\usepackage{csquotes}
+
+% glossaries
+\usepackage{glossaries-extra}
+\makeglossaries
+\input{content/glossaries}
+
+
+% Document information
+\title{Accelerating in a world of chaos}
+\subtitle{by using Enterprise Architecture with the concept Antifragility}
+\author{J.R. Bliekendaal}
+
+\begin{document}				%	Start the document body
+
+\include{content/titlepage}		%	Add the title page
+\pagenumbering{roman}			%	Set pagenumbering to roman
+\include{content/acknowledgements}	%	Add acknowledgements
+\include{content/abstract} 		%	Add the abstract
+\tableofcontents				%	Add the Table of Contents
+\listoffigures					%	Add the List of Figures
+\listoftables					%	Add the list of Tables
+
+\clearpage
+\pagenumbering{arabic}			%	Set pagenumbering to arabic
+
+\include{content/introduction} %	Add the introduction
+
+\printunsrtglossaries			%	Add Glossary
+\printbibliography				%	Add Bibliography
+
+\appendix
+\chapter{Appendices}
+\include{content/appendixa}
+\include{content/appendixb}
+% \include{content/buildingblocks}
+
+\end{document}
