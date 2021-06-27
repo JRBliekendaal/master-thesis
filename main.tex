@@ -1,10 +1,14 @@
-\documentclass[10pt,a4paper,abstract=true]{scrreprt}
+\documentclass[bibtotoc]{scrreprt}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \usepackage{graphicx}
 \usepackage{lipsum}
+\usepackage{booktabs}
+
+% Add dummy phantomsection for use
+\providecommand\phantomsection{}
 
 % Referemces
 \usepackage[backend=biber,style=apa]{biblatex}
@@ -12,10 +16,10 @@
 \usepackage{csquotes}
 
 % glossaries
-\usepackage{glossaries-extra}
-\makeglossaries
-\input{content/glossaries}
-
+\usepackage[toc,automake,acronym]{glossaries}
+\makeglossary
+\input{contents/glossaries}
+\input{contents/abbreviations}
 
 % Document information
 \title{Accelerating in a world of chaos}
@@ -24,26 +28,36 @@
 
 \begin{document}				%	Start the document body
 
-\include{content/titlepage}		%	Add the title page
+\include{contents/titlepage}		%	Add the title page
 \pagenumbering{roman}			%	Set pagenumbering to roman
-\include{content/acknowledgements}	%	Add acknowledgements
-\include{content/abstract} 		%	Add the abstract
+\include{contents/acknowledgements}	%	Add acknowledgements
+\include{contents/abstract} 		%	Add the abstract
+\phantomsection
+\addcontentsline{toc}{chapter}{Table of Contents}
 \tableofcontents				%	Add the Table of Contents
 \listoffigures					%	Add the List of Figures
 \listoftables					%	Add the list of Tables
+\printglossary
+\printglossary[type=\acronymtype,title=Abbreviations]
 
 \clearpage
 \pagenumbering{arabic}			%	Set pagenumbering to arabic
 
-\include{content/introduction} %	Add the introduction
+\include{contents/introduction} %	Add the introduction
 
-\printunsrtglossaries			%	Add Glossary
+%\include{contents/methodology}	%	Add the methodology
+%\include{contents/discussion}	%	Add the discussion
+
+
+
+\include{contents/chaptertemplate}	%	Add the Chapter Template
+
 \printbibliography				%	Add Bibliography
 
+
 \appendix
-\chapter{Appendices}
-\include{content/appendixa}
-\include{content/appendixb}
+\include{contents/appendixa}
+\include{contents/appendixb}
 % \include{content/buildingblocks}
 
 \end{document}
