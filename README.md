@@ -4,4 +4,4 @@ Master Thesis on the concepts of Enterprise Architecture and Antifragility for t
 Promoter: Hans Mulder
 Co-Promotor: Edzo Botjes
 
-Sponsor: Centric Public Sector Solutions
+Sponsor: Maarten Hillenaar / CEO of Centric Public Sector Solutions
