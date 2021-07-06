@@ -30,38 +30,43 @@
 
 \begin{document}				%	Start the document body
 
-\include{contents/titlepage}		%	Add the title page
-\pagenumbering{roman}			%	Set pagenumbering to roman
-\include{contents/acknowledgements}	%	Add acknowledgements
-\include{contents/abstract} 		%	Add the abstract
-\phantomsection
-\addcontentsline{toc}{chapter}{Table of Contents}
-\tableofcontents				%	Add the Table of Contents
-\listoffigures					%	Add the List of Figures
-\listoftables					%	Add the list of Tables
-\printglossary
-\printglossary[type=\acronymtype,title=Abbreviations]
+	%\include{contents/coverpage}
+	%\include{contents/managementsummary}
+	\include{contents/titlepage}		%	Add the title page
+	\pagenumbering{roman}			%	Set pagenumbering to roman
+	\include{contents/acknowledgements}	%	Add acknowledgements
+	\include{contents/abstract} 		%	Add the abstract
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Table of Contents}
+	\tableofcontents				%	Add the Table of Contents
+	\listoffigures					%	Add the List of Figures
+	\listoftables					%	Add the list of Tables
+	\printglossary
+	\printglossary[type=\acronymtype,title=Abbreviations]
+	
+	% Body of Thesis
 
-\clearpage
-\pagenumbering{arabic}			%	Set pagenumbering to arabic
-
-\include{contents/introduction} %	Add the introduction
-
-\include{contents/methodology}	%	Add the methodology
-%\include{contents/discussion}	%	Add the discussion
-
-
-
-\include{contents/chaptertemplate}	%	Add the Chapter Template
-
-\printbibliography				%	Add Bibliography
+	\clearpage
+	\pagenumbering{arabic}			%	Set pagenumbering to arabic
+	
+	\include{contents/introduction} %	Add the introduction
+	
+	\include{contents/methodology}	%	Add the methodology
+	%\include{contents/discussion}	%	Add the discussion
 
 
-\begin{appendices}
-\include{contents/appendix_interviewees}
-\include{contents/appendix_delphigroup}
-\include{contents/appendix_literatureselection}
-\include{contents/appendix_researchlog}
-\end{appendices}
+
+	\include{contents/chaptertemplate}	%	Add the Chapter Template
+
+	% Tail of Thesis
+	
+	\printbibliography				%	Add Bibliography
+
+	\begin{appendices}
+		\include{contents/appendix_interviewees}
+		\include{contents/appendix_delphigroup}
+		\include{contents/appendix_literatureselection}
+		\include{contents/appendix_researchlog}
+	\end{appendices}
 
 \end{document}
