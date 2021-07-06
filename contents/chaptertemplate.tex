@@ -38,6 +38,14 @@
 \end{figure}
 \subsection{Glossary}
 
+\begin{verbatim*}
+	\gls{antifragile} is not that \gls{fragile}\\
+	\Gls{antifragile} is not that \Gls{fragile}\\
+	\gls{fragile} is not that \gls{antifragile}\\
+	\Gls{fragile} is not that \Gls{antifragile}\\
+\end{verbatim*}
+
+Gives:\\
 \gls{antifragile} is not that \gls{fragile}\\
 \Gls{antifragile} is not that \Gls{fragile}\\
 \gls{fragile} is not that \gls{antifragile}\\
@@ -45,6 +53,13 @@
 
 \subsection{Abbreviation}
 
+\begin{verbatim*}
+\acrfull{vuca}\\
+\acrlong{vuca}\\
+\acrshort{vuca}\\
+\end{verbatim*}
+
+Gives:\\
 \acrfull{vuca}\\
 \acrlong{vuca}\\
 \acrshort{vuca}\\
@@ -54,8 +69,12 @@
 	\parencite{Bliek2017}
 	\citeyear{Bliek2017}
 	\citeauthor{Bliek2017}
+	\parencite*{Bliek2017}
+	\textcite{Bliek2017}
 \end{verbatim*}
 Gives:\\
 \parencite{Bliek2017}\\
 \citeyear{Bliek2017}\\
-\citeauthor{Bliek2017}
+\citeauthor{Bliek2017}\\
+\parencite*{Bliek2017}\\
+\textcite{Bliek2017}

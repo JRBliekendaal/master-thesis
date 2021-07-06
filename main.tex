@@ -1,11 +1,13 @@
-\documentclass[bibtotoc]{scrreprt}
+\documentclass[bibtotoc,parskip=full]{scrreprt}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \usepackage{graphicx}
 \usepackage{lipsum}
+\usepackage{tabularx}
 \usepackage{booktabs}
+\usepackage[toc,page]{appendix}
 
 % Add dummy phantomsection for use
 \providecommand\phantomsection{}
@@ -13,7 +15,7 @@
 % Referemces
 \usepackage[backend=biber,style=apa]{biblatex}
 \addbibresource{bibliography.bib}
-\usepackage{csquotes}
+%\usepackage{csquotes}
 
 % glossaries
 \usepackage[toc,automake,acronym]{glossaries}
@@ -45,7 +47,7 @@
 
 \include{contents/introduction} %	Add the introduction
 
-%\include{contents/methodology}	%	Add the methodology
+\include{contents/methodology}	%	Add the methodology
 %\include{contents/discussion}	%	Add the discussion
 
 
@@ -55,9 +57,11 @@
 \printbibliography				%	Add Bibliography
 
 
-\appendix
-\include{contents/appendixa}
-\include{contents/appendixb}
-% \include{content/buildingblocks}
+\begin{appendices}
+\include{contents/appendix_interviewees}
+\include{contents/appendix_delphigroup}
+\include{contents/appendix_literatureselection}
+\include{contents/appendix_researchlog}
+\end{appendices}
 
 \end{document}
