@@ -4,6 +4,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \usepackage{graphicx}
+\usepackage{xcolor}
 \usepackage{lipsum}
 \usepackage{tabularx}
 \usepackage{booktabs}
@@ -15,10 +16,13 @@
 % Referemces
 \usepackage[backend=biber,style=apa]{biblatex}
 \addbibresource{bibliography.bib}
-%\usepackage{csquotes}
+\usepackage{csquotes}
+
+% Commands
+\newcommand{\needsref}{\textcolor{red}{\textbf{(NEEDS REF)}}}
 
 % glossaries
-\usepackage[toc,automake,acronym]{glossaries}
+\usepackage[toc,acronym]{glossaries}
 \makeglossary
 \input{contents/glossaries}
 \input{contents/abbreviations}
@@ -33,6 +37,7 @@
 	%\include{contents/coverpage}
 	%\include{contents/managementsummary}
 	\include{contents/titlepage}		%	Add the title page
+	\include{contents/quotes}			%	Quotes
 	\pagenumbering{roman}			%	Set pagenumbering to roman
 	\include{contents/acknowledgements}	%	Add acknowledgements
 	\include{contents/abstract} 		%	Add the abstract
@@ -59,8 +64,9 @@
 	\include{contents/discussion}	%	Add the discussion
 
 
-
-	\include{contents/chaptertemplate}	%	Add the Chapter Template
+	\include{contents/textblocks}	%	Pieces of text that can be used
+	
+	%\include{contents/chaptertemplate}	%	Add the Chapter Template
 
 	% Tail of Thesis
 	
