@@ -46,7 +46,7 @@
 	\tableofcontents				%	Add the Table of Contents
 	\listoffigures					%	Add the List of Figures
 	\listoftables					%	Add the list of Tables
-	\printglossary[title=Glossary of Terms]
+	\printglossary
 	\printglossary[type=\acronymtype,title=Abbreviations]
 	
 	% Body of Thesis
