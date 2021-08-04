@@ -4,11 +4,13 @@
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \usepackage{graphicx}
+\usepackage[hidelinks,linktocpage=true]{hyperref}
 \usepackage{xcolor}
 \usepackage{lipsum}
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage[toc,page]{appendix}
+\usepackage{ccicons}
 
 % Add dummy phantomsection for use
 \providecommand\phantomsection{}
@@ -38,7 +40,8 @@
 	%\include{contents/managementsummary}
 	\include{contents/titlepage}		%	Add the title page
 	\include{contents/quotes}			%	Quotes
-	\pagenumbering{roman}			%	Set pagenumbering to roman
+	\include{contents/thesisinformation} %	Thesis Information
+	\pagenumbering{roman}				%	Set pagenumbering to roman
 	\include{contents/acknowledgements}	%	Add acknowledgements
 	\include{contents/abstract} 		%	Add the abstract
 	\phantomsection
