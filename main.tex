@@ -57,13 +57,6 @@
 	\renewcommand*\contentsname{Table of Contents}
 	\addcontentsline{toc}{chapter}{Table of Contents}
 	\tableofcontents				%	Add the Table of Contents
-	\addcontentsline{toc}{chapter}{List of Figures}
-	\listoffigures					%	Add the List of Figures
-	\addcontentsline{toc}{chapter}{List of Tables}
-	\listoftables					%	Add the list of Tables
-	\printglossary[title=Glossary of Terms]
-	\printglossary[type=\acronymtype,title=Abbreviations]
-	
 	% Body of Thesis
 
 	\clearpage
@@ -84,11 +77,18 @@
 	\include{contents/chaptertemplate}	%	Add the Chapter Template
 
 	% Tail of Thesis
+	\addcontentsline{toc}{chapter}{List of Figures}
+	\listoffigures					%	Add the List of Figures
+	\addcontentsline{toc}{chapter}{List of Tables}
+	\listoftables					%	Add the list of Tables
+	\printglossary[title=Glossary of Terms]
+	\printglossary[type=\acronymtype,title=Abbreviations]
 	
 	\printbibliography				%	Add Bibliography
 
 	\begin{appendices}
 		\include{contents/appendix_motivation}
+		\include{contents/appendix_laws}
 		\include{contents/appendix_interviewees}
 		\include{contents/appendix_delphigroup}
 		\include{contents/appendix_literatureselection}

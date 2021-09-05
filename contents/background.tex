@@ -4,25 +4,48 @@
 \section{What is a system?}
 \label{sec:tbsystem}
 
-\subsection{Open vs Closed systems}
+\begin{remark}
+	Place standard definitions at this spot of the thesis.
+\end{remark}
 
+\subsection{Open vs Closed systems}
+\label{sub:tbopenclosedsystems}
 Complex adaptive system (CAS)\\
 
 Quote from AMS011: \parencite{Turner2019}\\
-''The whole is different from the sum of its parts and their interactions'' [61] (p.77) Though emergence, the whole cannog be reduced to the original parts, the whole is considered a new entity or unit. The whole is ''qualitativly different from their parts ... The cannot be meaningfully compared-they are different'' [61] (system holism)\\
+''The whole is different from the sum of its parts and their interactions'' [61] (p.77) Though emergence, the whole cannot be reduced to the original parts, the whole is considered a new entity or unit. The whole is ''qualitatively different from their parts ... The cannot be meaningfully compared-they are different'' [61] (system holism)\\
 CAS is going against the second law of thermodynamics.\\
 
 \subsection{Linear and non-linear systems}
+\label{sub:linearnonlinear}
 
 \subsection{Complexity Theory}
+\label{sub:tbcomplexitytheory}
 Quote from AMS011:\\
-The interactions within organisations are complex and can be explained better through the lens of complexity theory and CAS than by the other theoretical system approaches \parencite[p. 15]{Turner2019}.
+The interactions within organisations are complex and can be explained better through the lens of complexity theory and CAS than by the other theoretical system approaches \parencite[p. 15]{Turner2019}.\\
 
-\section{Organisation}
-\label{sec:tborganisation}
+Consider the concept of the Platonic fold, [7] which tells us that the act of modeling the world
+simplifies it to the point where any decisions made based on that model are misinformed due to details omitted for
+the sake of hiding complexity. This is also called ‘Hidden Intelligence Syndrome” [ 8]. When humans build complex systems, they tend to fail, often catastrophically, because of Platonic folding. The
+solution to the Platonic fold requires accepting complexity as something we can neither predict nor control, along
+with accepting the limitations of modeling and risk management. Instead of pursuing correctness in these areas, we
+should aim to build systems that are \gls{antifragile} to fluctuations in the \acrshort{vuca} elements (i.e., the system becomes
+stronger as the business environment warps and changes with time). \parencite[p. 885]{O’Reilly2019}
 
-\subsection{Independent Software Vendor}
-\label{sub:tbisv}
+\begin{remark}
+	Must eleborate more on this.
+\end{remark}
+
+\subsection{Viable Systems Model}
+\label{sub:tbvsm}
+\acrfull{vsm}
+
+
+\subsection{Organisation as a System}
+\label{sub:tborganisation}
+
+\section{Independent Software Vendor}
+\label{sec:tbisv}
 
 \section{Antifragile}
 \label{sec:tbantifragile}
@@ -33,9 +56,9 @@ The interactions within organisations are complex and can be explained better th
 	\item{Hormesis / Mithridatisation (by taleb) / Antidotum Mithridatium}
 \end{itemize}
 
-''Define antifragility as a property of a system.'' \parencite{Jaaron2014}
+It is important to realize that the degree of \gls{fragility} of a system is often a function of its internal structure. The ability of a system to change under stress is governed by the interconnectedness of its parts, how strongly they are tied to each other, and how much change ripples through the system \parencite[p. 886]{O’Reilly2019}.\\
 
-\citeauthor{Kastner2017} created a framework for designing an antifragile organisation: Antifragile Organisation Design Framework \citeyear{Kastner2017}. The framework consists out of 4 main principles:
+''Define antifragility as a property of a system'' \parencite{Jaaron2014}. \textcite{Kastner2017} created a framework for designing an antifragile organisation: Antifragile Organisation Design Framework. The framework consists out of 4 main principles:
 \begin{itemize}
 	\item{\textbf{Self Organisation.} Decentralisation can be seen as a strategy for organisational survival \parencite{Brafman2007}.}
 	\item{\textbf{Ownership.} Result based and 'Skinin the game'.}
@@ -43,8 +66,12 @@ The interactions within organisations are complex and can be explained better th
 	\item{\textbf{DNA - Shared purpose, values and culture.}}
 \end{itemize}
 
-Decentralised Systems, using self organising capabilities might not only survive disruptions but could even psorsper \parencite{Brafman2007}.\\
-The only real difference with Complex Adaptive System and antifragile of \textcite{Taleb2013} is that with antifragile stressors, disruptions, errors, volatility, randomness, chaos and uncertainty are seen as 'desired events' in order to strengten and evolve the system \parencite{Jaaron2014}.
+Decentralised Systems, using self organising capabilities might not only survive disruptions but could even psorsper \parencite{Brafman2007}.The only real difference with Complex Adaptive System and antifragile of \textcite{Taleb2013} is that with antifragile stressors, disruptions, errors, volatility, randomness, chaos and uncertainty are seen as 'desired events' in order to strengten and evolve the system \parencite{Jaaron2014}.
+
+\subsection{Volatile, uncertain, complex, and ambiguous}
+\label{seb:tbvuca}
+
+\Gls{volatile}, \gls{uncertain}, \gls{complex}, and \gls{ambiguous}.
 
 \subsection{Relation between antifragile, fragile, robust, resilient, and agile}
 \label{sub:tbrelatedtoantifragile}
@@ -52,12 +79,22 @@ The only real difference with Complex Adaptive System and antifragile of \textci
 \gls{antifragile} with \gls{fragile}, \gls{robust}, \gls{resilient}, and \gls{agile}.
 
 \subsection{Resilience}
+\label{sub:tbresilience}
 \textcite[p. 5-7]{MartinBreen2011} distinguishes three types of resilience:
 \begin{itemize}
 	\item{\textbf{Engineering Resilience.} Bounce back faster after stress, enduring greater stresses, and being disturbed less by a given amount of stress.}
 	\item{\textbf{Systems Resilience.} Maintaining system function in the event of a disturbance. Systems resilience has been applied in governance and management, where it is often called robustness.}
 	\item{\textbf{Resilience in Complex Adaptive Systems.} The ability to withstand, recover from, and reorganise in repsonse to crisis. The function is maintained by the system structure may not be. The main differentiator is the adaptive capacity or adaptability of the system.}
 \end{itemize}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/eaal-martin-breen}
+	\caption[Three types of resilience]{\acrshort{eaal}: Three types of resilience \parencite{Botjes2020}}
+	\label{fig:eaal-martin-breen}
+\end{figure}
+
+
 \begin{remark}
 for systems resilience Kastner loc 327 contains three references that have to be used for reference on robustness.
 \end{remark}
@@ -83,19 +120,53 @@ The term resilience (including all three examined concepts) focuses on the avoid
 add extra references from Kastner to this cite.
 \end{remark}
 
-Resilient systems are, by definition, able to survive disruption and eventually regain function. Beyond resilience is the
-idea of antifragility – that systems actually learn from their exposure to stress and become stronger because of it [2] \parencite[p. 876]{O’Reilly2020}
-\begin{remark}%
-[2] is \parencite{Taleb2013}
+\subsection{Antifragile Systems Design}
+
+\acrfull{asd} \parencite[p. 886-888]{O’Reilly2019} requires an organization to move as one toward solving the problem of complexity, which means changing the perspective from “us vs. them” (IT vs. business) to simply “us” (business). Business leaders, business/ enterprise architects, and software architects all need to engage with the process to make it work. This requires a new approach from both architects and business leaders \parencite[p. 886]{O’Reilly2019}.
+
+\begin{remark}
+	Bridge to Business \& IT Alignment of COBIT/EGIT \parencite{DeHaes2020}? Is this a condition before you can start with antifragile? Mention it high level but exclude the application of COBIT in the research.
 \end{remark}
 
-Residuality theory reveals a system as actually being made up of a stack of shadowswhich we cannot see without
-turning various lights on and off. We do this through a stressor analysis [10]. \parencite[p. 877]{O’Reilly2020}
+Architects need to work with the business to describe the \acrshort{vuca} environment, translate the impacts on the
+software decomposition, and even assist in business level mitigations \parencite[p. 886]{O’Reilly2019}.
 
-\subsection{Volatile, uncertain, complex, and ambiguous}
-\label{seb:tbvuca}
+\begin{remark}
+	Is this only about software systems or also other systems like an organisation? Can it be generalised?
+\end{remark}
 
-\Gls{volatile}, \gls{uncertain}, \gls{complex}, and \gls{ambiguous}.
+\textcite[p. 886]{O’Reilly2019} states that the four important principles for the design of an \gls{antifragile} system, as described by \textcite[p. 35-39]{Hole2016}, are of great importance for \acrshort{asd}.
+\begin{enumerate}
+	\item{\textbf{Modularity.} Consisting of seperate, linked components.}
+	\item{\textbf{Weak Links.} A low level of interconnectedness between components.}
+	\item{\textbf{Redundancy.} The presence of more than one component to cope with failure.}
+	\item{\textbf{Diversity.} The ability to solve a problem in more than one way with different components.}
+\end{enumerate}
+
+The process of \acrshort{asd} constist out of four steps:
+\begin{enumerate}
+	\item{\textbf{\acrshort{vuca} Analysis.}}
+	\item{\textbf{System Decomposition - Flow First Design.}}
+	\item{\textbf{Design Testing.}}
+	\item{\textbf{Modified \acrfull{fmea}}}
+\end{enumerate}
+\begin{remark}
+	Needs some extra explaination per item
+\end{remark}
+
+Going forward, architects should consider the following actions \parencite[p. 889]{O’Reilly2019}:
+\begin{itemize}
+	\item{\textbf{Practice VUCA Analysis on the initiative's Business Model.}}
+	\item{\textbf{Become an expert in system decomposition.}}
+	\item{\textbf{Learn different methods for system decomposition.}}
+	\item{\textbf{Learn to use modified \acrshort{fmea} to improve system designs.}}
+\end{itemize}
+
+\subsection{Residuality Theory}
+\label{sub:residualitytheory}
+
+Resilient systems are, by definition, able to survive disruption and eventually regain function. Beyond resilience is the
+idea of antifragility – that systems actually learn from their exposure to stress and become stronger because of it \parencite{Taleb2013}\ \parencite[p. 876]{O’Reilly2020}. Residuality theory reveals a system as actually being made up of a stack of shadows which we cannot see without turning various lights on and off. We do this through a stressor analysis  \parencite[p. 877]{O’Reilly2020}.
 
 \section{Enterprise Architecture}
 \label{sec:tbea}
@@ -111,6 +182,7 @@ There are three schools of Enterprise Architecture \parencite{Lapalme2012}:
 
 \subsection{Steering mechanisms}
 \label{sub:tbeasteering}
+
 
 \section{Public Sector market}
 \label{sec:tbpsmarket}
