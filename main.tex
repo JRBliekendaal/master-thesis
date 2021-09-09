@@ -44,6 +44,8 @@
 
 \begin{document}				%	Start the document body
 
+	% Head of thesis
+
 	%\include{contents/coverpage}
 	%\include{contents/managementsummary}
 	\include{contents/titlepage}		%	Add the title page
@@ -57,6 +59,7 @@
 	\renewcommand*\contentsname{Table of Contents}
 	\addcontentsline{toc}{chapter}{Table of Contents}
 	\tableofcontents				%	Add the Table of Contents
+
 	% Body of Thesis
 
 	\clearpage
@@ -66,7 +69,10 @@
 	\include{contents/background} 	%	Add the Theoretical Background
 	\include{contents/methodology}	%	Add the methodology
 
-	%\include{contents/chapter}		%	Add new chapter
+	\include{contents/AFPublicSector}	% Chapter about the importance in the public sector market
+	\include{contents/Analysis}		%	Add Analysis Chapter
+	\include{contents/Artefact}		%	Artefact
+	\include{contents/Validation}	%	Validation of the artefact by using Delphi
 
 	\include{contents/conclusion}	%	Add the conclusion
 	\include{contents/discussion}	%	Add the discussion
@@ -77,6 +83,9 @@
 	\include{contents/chaptertemplate}	%	Add the Chapter Template
 
 	% Tail of Thesis
+
+	\printbibliography				%	Add Bibliography
+
 	\addcontentsline{toc}{chapter}{List of Figures}
 	\listoffigures					%	Add the List of Figures
 	\addcontentsline{toc}{chapter}{List of Tables}
@@ -84,8 +93,6 @@
 	\printglossary[title=Glossary of Terms]
 	\printglossary[type=\acronymtype,title=Abbreviations]
 	
-	\printbibliography				%	Add Bibliography
-
 	\begin{appendices}
 		\include{contents/appendix_motivation}
 		\include{contents/appendix_laws}
