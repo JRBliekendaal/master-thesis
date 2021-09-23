@@ -1,5 +1,4 @@
 \documentclass[bibtotoc]{scrreprt}
-%\documentclass[bibtotoc,parskip=full]{scrreprt}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
@@ -16,6 +15,20 @@
 \usepackage{ccicons} % The Creative Commons Icons
 \usepackage{perpage} %the perpage package
 \MakePerPage{footnote} %the perpage package command
+
+%tryout header footer
+
+%automark,autooneside=false,% <- needed if you want to use \leftmark and \rightmark in a onesided document
+
+%\usepackage[automark,headsepline,footsepline]{scrlayer-scrpage}
+%\clearpairofpagestyles
+%\ihead{\leftmark}
+%\ohead{Accelerating in a world of chaos}
+%\chead{}
+%\ifoot{}
+%\cfoot{\pagemark}
+%\ofoot{}
+%\renewcommand*\chapterpagestyle{scrheadings}% default pagestyle on chapter pages is plain
 
 % Add remark without numbering for writing notes
 
@@ -54,6 +67,7 @@
 	\include{contents/titlepage}		%	Add the title page
 	\include{contents/quotes}			%	Quotes
 	\include{contents/thesisinformation} %	Thesis Information
+	\include{contents/declaration}		% Declaration of Authorship
 	\pagenumbering{roman}				%	Set pagenumbering to roman
 	\include{contents/acknowledgements}	%	Add acknowledgements
 	\include{contents/abstract} 		%	Add the abstract
@@ -81,9 +95,9 @@
 	\include{contents/discussion}	%	Add the discussion
 
 
-	\include{contents/textblocks}	%	Pieces of text that can be used
+	%\include{contents/textblocks}	%	Pieces of text that can be used
 	
-	\include{contents/chaptertemplate}	%	Add the Chapter Template
+	%\include{contents/chaptertemplate}	%	Add the Chapter Template
 
 	% Tail of Thesis
 
@@ -99,8 +113,8 @@
 	\begin{appendices}
 		\include{contents/appendix_motivation}
 		\include{contents/appendix_laws}
-		\include{contents/appendix_interviewees}
-		\include{contents/appendix_delphigroup}
+%		\include{contents/appendix_interviewees}
+%		\include{contents/appendix_delphigroup}
 		\include{contents/appendix_literatureselection}
 		\include{contents/appendix_researchlog}
 	\end{appendices}
