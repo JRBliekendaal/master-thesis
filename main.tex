@@ -11,6 +11,7 @@
 \usepackage{tabularx}
 \usepackage{longtable}
 \usepackage{booktabs}
+\usepackage{enumitem}
 \usepackage[toc,page]{appendix}
 \usepackage{ccicons} % The Creative Commons Icons
 \usepackage{perpage} %the perpage package
@@ -93,6 +94,7 @@
 
 	\include{contents/conclusion}	%	Add the conclusion
 	\include{contents/discussion}	%	Add the discussion
+	\include{contents/retrospective}%	Add the restrospective
 
 
 	%\include{contents/textblocks}	%	Pieces of text that can be used
@@ -102,9 +104,10 @@
 	% Tail of Thesis
 
 	\printbibliography				%	Add Bibliography
-
+	\newpage
 	\addcontentsline{toc}{chapter}{List of Figures}
-	\listoffigures					%	Add the List of Figures
+	\listoffigures
+	\newpage					%	Add the List of Figures
 	\addcontentsline{toc}{chapter}{List of Tables}
 	\listoftables					%	Add the list of Tables
 	\printglossary[title=Glossary of Terms]
