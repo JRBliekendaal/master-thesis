@@ -43,6 +43,9 @@ CAS is going against the second law of thermodynamics.\\
 	\label{fig:systemsofsystems}
 \end{figure}
 
+\subsection{Systems-in-Environment}
+
+\parencite[p. 41]{Lapalme2012}
 
 \subsection{Complexity Theory}
 \label{sub:tbcomplexitytheory}
@@ -171,6 +174,7 @@ add extra references from Kastner to this cite.
 \end{remark}
 
 \subsection{Work of E. A. Botjes}
+\textcite{Botjes2020} has conducted literature research for his master project. This literature research was used to define the defintions of \gls{antifragility} and to define attributes relevant to \gls{antifragility}. The outcome of this research is the \acrfull{eaal} model. The outcome of the research of \textcite{Botjes2020} also stated that the attributes of \gls{antifragility} are additional to those of \gls{resiliency}. Therefor \acrshort{eaal} model contains an overview on not only the attributes of \gls{antifragility}.
 
 \begin{figure}[H]
 	\centering
@@ -179,6 +183,23 @@ add extra references from Kastner to this cite.
 	\label{fig:eaal}
 \end{figure}
 
+The \acrshort{eaal} model of \parencite{Botjes2020} uses Variety Engineering \needsref as his base. The variety engineering consists out of two different varieties. The Attenuate Variety, and the Amplified Variety.
+
+\begin{itemize}
+	\item{\textbf{Attenuate Variety.}}
+	\item{\textbf{Amplified Variety.}}
+\end{itemize}
+
+The more amplified variety a \acrshort{sos} has the more antifragile the \acrshort{sos} is \needsref.
+
+\begin{remark}
+Need more information to be eleborated on this. The information should be from the source of Edzo.
+
+Edzo his paper contains references to ashley and beer about these kinds of variety!
+
+\end{remark}
+
+The research of \textcite{Botjes2020} is recent and contains a good overview of needed attributes for a system-of-systems to become more \gls{antifragile}.
 
 \subsection{Antifragile Systems Design}
 
@@ -241,8 +262,14 @@ idea of antifragility – that systems actually learn from their exposure to str
 \section{Enterprise Architecture}
 \label{sec:tbea}
 
+There are various understandings of \acrlong{ea} and there is no agreement on them. The various definitions are not always complementary but sometimes in opposite \parencite{Lapalme2012,SaintLouis2019,Hoogervorst2009}.
+
 \textcite{White2018} states that the organisations business requirements guide enterprise architecture — it helps layout how information, business and technology flow together. Enterprise architecture has become a priority for businesses trying to keep up with new technologies such as the cloud, IoT, machine learning and other emerging trends that will prompt digital transformation.
-While \textcite{Gartner} states that Enterprise Architecture is a discipline for proactively and holistically leading enterprise responses to disruptive forces by identifying and analysing the execution of change toward desired business vision and outcomes. EA delivers value by presenting business and IT leaders with signature-ready recommendations for adjusting policies and projects to achieve targeted business outcomes that capitalise on relevant business disruptions. 
+
+While \textcite{Gartner} states that Enterprise Architecture is a discipline for proactively and holistically leading enterprise responses to disruptive forces by identifying and analysing the execution of change toward desired business vision and outcomes. EA delivers value by presenting business and IT leaders with signature-ready recommendations for adjusting policies and projects to achieve targeted business outcomes that capitalise on relevant business disruptions.
+
+\textcite[p. 9]{Ross2014} defines \acrshort{ea} as the organizing logic for business processes and IT infrastructure, reflecting the integration and standardization requirements of the company’s operating model. The enterprise architecture provides a long-term view of a company’s
+processes, systems, and technologies so that individual projects can build capabilities—not just fulfill immediate needs. 
 
 \subsection{Three schools of Enterprise Architecture}
 
@@ -250,12 +277,53 @@ There are three schools of Enterprise Architecture \parencite{Lapalme2012}:
 \begin{itemize}
 	\item{\textbf{Enterprise IT Architecting.} Inputs are business strategy and objectives.}
 	\item{\textbf{Enterprise Integrating.} It is grounded in systems thinking. It has a holistic view. The link between strategy and execution. Inputs are business strategy and objectives.}
-	\item{\textbf{Enterprise Ecological Adaption.} Fostering organisational learning by designing all facets of the enterprise, including the relation to its environment.}
+	\item{\textbf{\acrfull{eea}.} Fostering organisational learning by designing all facets of the enterprise, including the relation to its environment.}
 \end{itemize}
 
-\begin{remark}
-	Use the findings of \parencite{Botjes2020} to stress the importance of a learning organisation to be antifragile. With this the choice of the three schools is clear. It should be the third school.
-\end{remark}
+ \textcite{Lapalme2012} defined the scope of \acrshort{eea} ''the enterprise in its environment, including not only the enterprise but also its environment and the bidirectional relationship and transactions between the enterprise and its environment'' with the purpose to ''help the organization innovate and adapt by designing the various enterprise facets to maximize organizational learning throughout the enterprise.'' As \textcite{Botjes2020} concluded with his \acrshort{eaal} model the attribute learning organisation is of importance for being \gls{resilient} or \gls{antifragile}. If the learning organisation is one of the conditions to be \gls{antifragile} the practice of \acrshort{ea} should be of the school of \acrshort{eea}. \textcite[p. 42]{Lapalme2012} states that the following authors are in the school of \acrshort{eea}:
+ 
+ \begin{table}[H]
+ 	\centering
+ 	\begin{tabular}{p{0.4\textwidth}p{0.4\textwidth}}
+ 		\toprule
+ 		Jamshid Gharajedaghi & Tom Graves \\%
+ 		Jan Hoogervorst	& James Martin \\%
+ 		Kevin Smith & James Lapalme\\%
+ 		Donald de Guerre &  \\%
+ 		\bottomrule
+ 	\end{tabular}
+ 	\caption{\acrshort{eea} authors}
+ \end{table}
+
+The properties of an \acrshort{eea} are:
+
+\begin{longtable}{p{.2\textwidth}p{.8\textwidth}}
+	\toprule
+	& \textbf{\acrlong{eea}} \\ \midrule%
+%	\multicolumn{2}{c}{\textbf{\acrlong{eea}}} \\ \midrule%
+	\endhead%
+	\hline
+	\caption{\acrlong{eea}}
+	\label{tab:eaeea}	
+	\endfoot%
+	Motto    		& Enterprise architecture is the means for organizational innovation and sustainability \\
+	Objectives and 	& Innovate and adapt    \\
+	concerns		& Support organizational coherence \\
+					& Encourage system-in-environment coevolution \\
+	Principles and  & Apply a holist (systemic) stance \\
+	assumptions		& System-in-environment coevolution  \\
+					& Environment can be changed \\
+					& Jointly design all organisational dimensions \\
+	Skills 			& Foster dialogue \\
+					& Apply system and system-in-environment thinking \\
+	Challenges		& Foster sensemaking \\
+					& Encourage systems thinking and systems-in-environment paradigm shifts \\
+					& Collaborate across the organisation \\
+	Insights		& Fosters system-in-environment coevolution and enterprise choherency \\
+					& Fosters organisational innovation and sustainability \\
+	Limitation		& Requires many organisational preconditions for management and strategy creation \\
+	\bottomrule
+\end{longtable}
 
 \subsection{Steering mechanisms}
 \label{sub:tbeasteering}
