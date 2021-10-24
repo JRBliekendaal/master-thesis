@@ -8,8 +8,8 @@
 	Place standard definitions at this spot of the thesis.
 \end{remark}
 
-\subsection{Open vs Closed systems}
-\label{sub:tbopenclosedsystems}
+\subsection{Open vs Closed vs Adaptive systems}
+\label{sub:tbopenclosedadaptivesystems}
 Complex adaptive system (CAS)\\
 
 Quote from AMS011: \parencite{Turner2019}\\
@@ -202,6 +202,7 @@ Edzo his paper contains references to ashley and beer about these kinds of varie
 The research of \textcite{Botjes2020} is recent and contains a good overview of needed attributes for a system-of-systems to become more \gls{antifragile}.
 
 \subsection{Antifragile Systems Design}
+\label{sub:backgroundasd}
 
 \acrfull{asd} \parencite[p. 886-888]{OReilly2019} requires an organization to move as one toward solving the problem of complexity, which means changing the perspective from “us vs. them” (IT vs. business) to simply “us” (business). Business leaders, business/ enterprise architects, and software architects all need to engage with the process to make it work. This requires a new approach from both architects and business leaders \parencite[p. 886]{OReilly2019}.
 
@@ -262,17 +263,18 @@ idea of antifragility – that systems actually learn from their exposure to str
 \section{Enterprise Architecture}
 \label{sec:tbea}
 
+\begin{remark}
+For example, Ylinen and Pekkola (2018, 2020) recognized two distinct groups of EA experts: a modeling-focused group forming a comprehensive view of an organization and a development-focused group using EA for organizational development. \parencite[p. 16]{Nurmi2021}
+
+Kotusev et al. (2015) reviewed the relevant literature and found three approaches to EA management (EAM): traditional, Massachusetts Institute of Technology (MIT), and dynamic. As discussed by Kotusev et al. (2015), the traditional approach to EAM consists of four phases: documenting the current state, developing the future state, and developing and implementing a transition plan. The MIT approach “advocates the development of a core diagram reflecting a long-term enterprise-level architectural vision.” Finally, the supporting core of the dynamic approach is “just enough, just in time,” meaning no EA is designed until there is a need for it. (Kotusev et al., 2015, p. 4072.)
+\end{remark}
+
 There are various understandings of \acrlong{ea} and there is no agreement on them. The various definitions are not always complementary but sometimes in opposite \parencite{Lapalme2012,SaintLouis2019,Hoogervorst2009}.
 
-\textcite{White2018} states that the organisations business requirements guide enterprise architecture — it helps layout how information, business and technology flow together. Enterprise architecture has become a priority for businesses trying to keep up with new technologies such as the cloud, IoT, machine learning and other emerging trends that will prompt digital transformation.
-
-While \textcite{Gartner} states that Enterprise Architecture is a discipline for proactively and holistically leading enterprise responses to disruptive forces by identifying and analysing the execution of change toward desired business vision and outcomes. EA delivers value by presenting business and IT leaders with signature-ready recommendations for adjusting policies and projects to achieve targeted business outcomes that capitalise on relevant business disruptions.
-
-\textcite[p. 9]{Ross2014} defines \acrshort{ea} as the organizing logic for business processes and IT infrastructure, reflecting the integration and standardization requirements of the company’s operating model. The enterprise architecture provides a long-term view of a company’s
-processes, systems, and technologies so that individual projects can build capabilities—not just fulfill immediate needs. 
+\textcite{White2018} states that the organisations business requirements guide enterprise architecture — it helps layout how information, business and technology flow together. While \textcite{Gartner} states that Enterprise Architecture is a discipline for proactively and holistically leading enterprise responses to disruptive forces by identifying and analysing the execution of change toward desired business vision and outcomes. EA delivers value by presenting business and IT leaders with signature-ready recommendations for adjusting policies and projects to achieve targeted business outcomes that capitalise on relevant business disruptions. \textcite[p. 9]{Ross2014} defines \acrshort{ea} as the organizing logic for business processes and IT infrastructure, reflecting the integration and standardization requirements of the company’s operating model. The enterprise architecture provides a long-term view of a company’s processes, systems, and technologies so that individual projects can build capabilities—not just fulfill immediate needs. \textcite[p. 24]{Greefhorst2011} defines \acrshort{ea} as those properties of an enterprise that are necessary and sufficient to meet its essential requirements.
 
 \subsection{Three schools of Enterprise Architecture}
-
+\label{sub:eathreeschools}
 There are three schools of Enterprise Architecture \parencite{Lapalme2012}:
 \begin{itemize}
 	\item{\textbf{Enterprise IT Architecting.} Inputs are business strategy and objectives.}
@@ -293,6 +295,7 @@ There are three schools of Enterprise Architecture \parencite{Lapalme2012}:
  		\bottomrule
  	\end{tabular}
  	\caption{\acrshort{eea} authors}
+ 	\label{tab:eeaauthors}
  \end{table}
 
 The properties of an \acrshort{eea} are:
