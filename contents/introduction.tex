@@ -5,48 +5,21 @@ The Greek philosopher Heraclitus once said that one constant since the beginning
 
 A world that is continuously in flux is a \acrfull{vuca} world. According to \textcite{Bennett2014} the world of \acrshort{vuca} requires a new approach. Disintermediation, globalisation, market upheaval, disruption, and technological advance all combine to produce an effect that is difficult to mitigate,  impossible to predict, and arduous to detect \parencite[p. 885]{OReilly2019}. \textcite{Taleb2008} his definition of a black swan (see later in this chapter) is similar. To deal with the \acrshort{vuca} world, companies invested a great deal of time and money in becoming less \gls{fragile} by being more \gls{agile}, \gls{robust} and \gls{resilient}. However, \textcite{Taleb2012} claims by being more \gls{agile}, \gls{robust}, or \gls{resilient}, the company can only withstand the change but does not gain from it.
 
-\textcite{Taleb2012} defines the opposite state of \gls{fragile}, \gls{antifragile} as an answer to what \textcite{Taleb2008} calls black swan events. These black swan events are also known as X-events \parencite{Casti2013}. \textcite{Taleb2012} states that \gls{resilient}, \gls{robust} (and company) are states that neither breaks nor improves. \textcite{Taleb2012} claims that \gls{antifragile} is the state that gains and improves. \Gls{antifragile} is the true opposite of \gls{fragile}.
+\textcite{Taleb2012} defines the opposite state of \gls{fragile}, \gls{antifragile} as an answer to what \textcite{Taleb2008} calls black swan events. \textcite{Taleb2012} states that \gls{resilient}, \gls{robust} (and company) are states that neither breaks nor improves. \textcite{Taleb2012} claims that \gls{antifragile} is the state that gains and improves. \Gls{antifragile} is the true opposite of \gls{fragile}.
 
-In this thesis, I define the \acrfull{ea} success factors for contribution to become \gls{antifragile}. I use the contextual boundary of the public sector as my lens.
+In this thesis, I define the \acrfull{ea} success factors for contribution to become \gls{antifragile}. I use the boundary of the local governmental agencies of the public sector (a \acrlong{sos}) as my lens.
 
 \section{The author}
 \label{sec:context}
-I am working as a Chief Architect for an \acrfull{isv} specialised in delivering software and services to the local governmental agencies in The Netherlands, such as municipalities, the provinces, the local tax offices, and the regional water authorities. 
+I am working as a Chief Architect for an \acrfull{isv} specialised in delivering products and services to the local governmental agencies in The Netherlands, such as municipalities, the provinces, the local tax offices, and the regional water authorities. I am responsible for the architecture function in this company.
 
 \section{The structure of this thesis}
 \label{sec:structure}
-In chapter \ref{ch:introduction}, the context of the research is set, the core concepts of \acrshort{ea} and \glspl{antifragile} are introduced together with the contextual boundary of the public sector. This chapter is closed with the problem statement, the belonging research questions, and the substantiation of the relevance of this research.
-
-In chapter \ref{ch:theoreticalbackground}, the background is given based on literature research. The contextual boundary of the public sector is defined. The concepts of \acrshort{ea}, \gls{antifragile}, and other relevant concepts such as system, organisation, and stressor are researched and defined in detail. 
-
-Chapter \ref{ch:research-methodology} explains the used research methodology and the approach for the research based on the FAIR\footnote{\url{https://www.go-fair.org/fair-principles/}} principles and the research properties of replicability, falsification, independence, and precision as described by \textcite{Recker2013}.
-
-I will elaborate on the fact that the public sector suffers from the digital transformation and the increase in the speed of change in chapter \ref{ch:vucaandpublicsector}. The \acrfull{vuca} world \parencite{Bennett2014} is used for a confrontation to determine the attributes of \acrshort{vuca} for the \acrfull{sosps} \acrfull{sos}. 
-
-Chapter \ref{ch:afenterprisearchitecture} is about the confrontation between \gls{antifragile} and the \acrfull{ea} theories to determine the success factors \acrshort{ea} for contribution to an organisation to become \gls{antifragile}. This chapter also is about the validation of these success factors by the Delphi Method.
+In \cref{ch:introduction}, the context of the research is set, the core concepts of \acrshort{ea} and \glspl{antifragile} are introduced together with the contextual boundary of the public sector. This chapter is closed with the problem statement, the belonging research questions, and the substantiation of the relevance of this research. In \cref{ch:theoreticalbackground}, the background on the concepts is given. The lens of the public sector is defined. The concepts of \acrshort{ea}, \gls{antifragile}, and other relevant concepts such as system, organisation, and stressor are researched and defined. \cref{ch:research-methodology} explains the used research methodology and the approach for the research based on the FAIR\footnote{\url{https://www.go-fair.org/fair-principles/}} principles and the research properties of replicability, falsification, independence, and precision as described by \textcite{Recker2013}. \cref{ch:eaafsuccessfactors} is used to gather success factors. The success factors are extended with possible implementation guidelines from an \acrshort{ea} perspective. \cref{ch:eaafsuccessfactors} ends with an overview of found success factors of \acrshort{ea} and \gls{antifragile} that can contribute to the public sector to become \gls{antifragile}. In \cref{ch:delphi} the Delphi method is used to refine, validate, and extend the success factors. By using triangulation the success factors are weighted and screened to determine the final success factors. In \cref{ch:conclusionanddiscussions} the conclusion of this research is stated, discussions are started and recommendations are given. \cref{ch:retrospective} describes the retrospective on the research and its process.
 
 \section{Introduction of the public sector}
 \label{sec:intropublicsector}
-According to \textcite{PrivacySense2016} the public sector is comprised of organisations that are owned and operated by the government and exist to provide services for its citizens. Similar to the non profit sector, organisations in the public sector do not seek to generate a profit. Sometimes the public sector will partner with an organisation in the private sector to create a public-private partnership. These hybrid organisations work together to deliver a service or business venture to a community jointly. Through outsourcing, public sector organisations will often engage the private sector to deliver goods and services to their citizens.
-
-I argue that, in the hybrid model, the definition of the public sector is not correct anymore. The part of a private company that is a part of a hybrid collaboration with the public sector should be part of the definition of the public sector.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/publicsector3modelsofcolaboration}
-	\caption[Public sector collaboration models]{Public sector collaboration models}
-	\label{fig:publicsector3modelsofcolaboration}
-\end{figure}
-
-The public sector is divided into three levels \parencite{PrivacySense2016}:
-
-\begin{itemize}
-	\item{\textbf{The national government,} such as the military, the tax authority, and homeland affairs.}
-	\item{\textbf{The regional government,} such as the provinces, the police, and water management.}
-	\item{\textbf{The local government,} such as the municipalities, the social services, and the local tax offices.}
-\end{itemize}
-
-I will focus this research on the public sector level local government of the Netherlands. In \cref{ch:discussion} I will discuss the applicability on non Dutch public sectors.
+According to \textcite{PrivacySense2016} the public sector is comprised of organisations that are owned and operated by the government and exist to provide services for its citizens. Similar to the non-profit sector, organisations in the public sector do not seek to generate a profit. Sometimes the public sector will partner with an organisation in the private sector to create a public-private partnership. These hybrid organisations work together to deliver a service or business venture to a community jointly. Through outsourcing, public sector organisations will often engage the private sector to deliver goods and services to their citizens.
 
 \section{Introduction of the concept Enterprise Architecture}
 \label{introea}
@@ -60,7 +33,8 @@ Concept architectures needed for the problem statement (business, application, i
 
 \section{Introduction of the concept of antifragility}
 \label{sec:introantifragility}
-\textcite{Taleb2008} describes a black swan as an event that 1) is so rare that even the possibility that it might occur is unknown, 2) has a catastrophic impact when it does occur, and 3) is explained in hindsight as if it were actually predictable. For extremely rare events, \citeauthor{Taleb2008} argues that the standard tools of probability and prediction, such as the normal distribution, do not apply since they depend on large population and past sample sizes that are never available for rare events by definition. Extrapolating, using statistics based on observations of past events is not helpful for predicting black swans, and might even make us more vulnerable to them. In his book \Gls{antifragile}, \textcite{Taleb2012} states that the way to survive a black swan event is to be \gls{antifragile}.\par
+\textcite{Taleb2008} describes a black swan as an event that 1) is so rare that even the possibility that it might occur is unknown, 2) has a catastrophic impact when it does occur, and 3) is explained in hindsight as if it were actually predictable. For extremely rare events, \citeauthor{Taleb2008} argues that the standard tools of probability and prediction, such as the normal distribution, do not apply since they depend on large population and past sample sizes that are never available for rare events by definition. Extrapolating, using statistics based on observations of past events is not helpful for predicting black swans, and might even make us more vulnerable to them. In his book \Gls{antifragile}, \textcite{Taleb2012} states that the way to survive a black swan event is to be \gls{antifragile}.
+
 Most people answer that the opposite of \gls{fragile} is \gls{robust}, \gls{resilient}, solid, or something of the sort. However, the \gls{resilient}, \gls{robust} (and company) are items that neither break nor improve, so you would not need to write anything on them — have you ever seen a package with \gls{robust} in thick green letters stamped on it? Logically, the exact opposite of a \gls{fragile} parcel would be a package on which one has written, please mishandle or please handle carelessly. Its contents would not just be unbreakable but would benefit from shocks and a wide array of trauma \parencite{Taleb2012}.
 
 \begin{figure}[h!]
@@ -72,9 +46,7 @@ Most people answer that the opposite of \gls{fragile} is \gls{robust}, \gls{resi
 
 \section{Problem statement}
 \label{sec:problemstatement}
-The concept of \gls{antifragility} implies that organisations could benefit and strengthen from crises, volatility, errors and uncertainty and could also lead to opportunities for innovation \parencite{Kastner2017}. Enterprise Architecture is a discipline that helps organisations to reach their goals. As stated by 
-
-As described in \ref{introea} with \acrshort{ea} one would expect that an organisation uses the discipline of \acrshort{ea} to get more towards the state of \gls{antifragility}. Research has been conducted on aspect architectures such as the application and information architectures but not on \acrshort{ea}. The problem is that the Body of Knowledge contains no direct knowledge on how to achieve \gls{antifragility} with the use of \acrshort{ea}. 
+The concept of \gls{antifragility} implies that organisations could benefit and strengthen from crises, volatility, errors and uncertainty and could also lead to opportunities for innovation \parencite{Kastner2017}. Enterprise Architecture is a discipline that helps organisations to reach their goals. As described in \ref{introea} with \acrshort{ea} one would expect that an organisation uses the discipline of \acrshort{ea} to get more towards the state of \gls{antifragility}. Research has been conducted on aspect architectures such as the application and information architectures but not on \acrshort{ea}. The problem is that the \acrlong{bok} contains no direct knowledge on how to achieve \gls{antifragility} with the use of \acrshort{ea}. 
 
 \section{The research subject}
 \label{sec:researchsubject}
