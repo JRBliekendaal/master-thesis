@@ -1,7 +1,8 @@
 \documentclass[bibtotoc]{scrreprt}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[english]{babel}
+%\usepackage[english]{babel}
+\usepackage[british]{babel}
 \usepackage{rotating}
 \usepackage{graphicx}
 \usepackage{wrapfig} % For wrapping figures in text.
@@ -96,10 +97,12 @@
 	
 	\include{contents/introduction} %	Add the introduction
 	\include{contents/background} 	%	Add the Theoretical Background
+	\include{contents/background_old} % old background
 	\include{contents/methodology}	%	Add the methodology
 	%\include{contents/afenterprisearchitecture} %	Add the analysis of antifragile and enterprise architecture
 	%\include{contents/vucapublicsector}	% Chapter about the importance in the public sector market
 	\include{contents/eaafsuccessfactors}	%	Add chapter on EAAF Success Factors
+	\include{contents/interviews}	%	Interview results
 	%\include{contents/analysis}		%	Add Analysis Chapter
 	%\include{contents/artefact}		%	Artefact
 	\include{contents/delphi}	%	Validation of the artefact by using Delphi
@@ -108,11 +111,10 @@
 	%\include{contents/discussion}	%	Add the discussion
 	\include{contents/retrospective}%	Add the restrospective
 	\include{contents/conceptuals}	%	Conceptual pieces of text yet to have its place in the thesis
-	\include{contents/interviews}	%	Interview results
-	\include{contents/interviewceoisv} % Interview of CEO of ISV
+	%	\include{contents/interviewceoisv} % Interview of CEO of ISV
 	\include{contents/interviewctoisv} % Interview of CTO of ISV
-	\include{contents/interviewctolg} % Interview of CTO of Local Government
-	\include{contents/interviewciocg} % Interview of CIO of Central Government
+%	\include{contents/interviewctolg} % Interview of CTO of Local Government
+%	\include{contents/interviewciocg} % Interview of CIO of Central Government
 	\include{contents/summaryofinterviews} % Summery of Interviews
 	%\include{contents/textblocks}	%	Pieces of text that can be used as a template
 	
@@ -139,6 +141,8 @@
 %		\include{contents/appendix_interviewees}
 %		\include{contents/appendix_delphigroup}
 		\include{contents/appendix_literatureselection}
+		\include{contents/appendix_interviewsummaries}
+		\include{contents/appendix_validation}
 		\include{contents/appendix_researchlog}
 	\end{appendices}
 
