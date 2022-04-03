@@ -1,0 +1,182 @@
+\chapter{Data preparation for interview analysis}
+
+\section{Step 1: merge similar labels}
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{p{.05\textwidth}p{.5\textwidth}p{.45\textwidth}}
+		\toprule
+		\textbf{Step} & \textbf{Description} & \textbf{Rationale} \\
+		\midrule
+		1     & Create, positive and negative, Main Categories of Engineering, Systems, CAS, Antifragile, and Learning Organisation) & Need extra categories to merge overarching subjects \\
+		2     & Merge Agility into CAS & How Agility is interpreted is the same as CAS \\
+		3     & Merge tinkering into Learning Organisation & How tinkering is interpreted it is the same as Learning Organisation \\
+		4     & Merge Robust/Resilience into Engineering Resilience & How Robust/Resilience is interpreted it is the same as Engineering Resilience \\
+		5     & Merge Governance into Engineering Resilience & How Governance is interpreted is the same as Top Down Command Control and Micro Management so Engineering Resilience \\
+		6     & Merge Shortage on IT Knowledge into No Resources to invest & Shortage on IT Knowledge can be interpreted as a resource that is not there (No Resources to invest) \\
+		7     & Merge Applying Best practices into Mono-Monotonicity & Applying Best practices is learning from the past \\
+		8     & Merge Development of Knowledge into Learning Organisation & Development of Knowledge within an organisation can be seen as the learning capability of an organisation \\
+		9     & Merge Blaming Culture into No Safe Environment & No Safe Environment is a result of a Blaming Culture \\
+		10    & Merge Limited EA into Enterprise IT Architecting & Limited EA is interpreted as the school of thought Enterprise IT Architecting \\
+		11    & Merge conservative into Risk Avoidance & Risk Avoidance is a result of Conservative \\
+		\bottomrule
+	\end{tabular}%
+	\caption{Data preparation 1 - Merging similar labels}
+	\label{tab:prepmergingsimilarlabels}%
+\end{table}%
+
+\section{Step 2: Filter cases on threshold}
+
+\begin{table}[htbp]
+	\centering
+		\begin{tabular}{p{.05\textwidth}p{.5\textwidth}p{.45\textwidth}}
+		\toprule
+		\textbf{Step} & \textbf{Description} & \textbf{Rationale} \\
+		\midrule
+		1     & Select labels where \% case is 75\% or more & When three interviewees mentioned the label it could be a label of significance (Triangulation) \\
+		\bottomrule
+	\end{tabular}%
+	\caption{Data preparation 2 - Select cases based on a threshold of 75\% or more}
+	\label{tab:prepselectcases}%
+\end{table}%
+
+\subsection{Outcome of filter cases on threshold}
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lllll}
+		\toprule
+		\textbf{Code} & \textbf{Count} & \textbf{\% Codes} &\textbf{Cases} & \textbf{\% Cases} \\
+		\midrule
+		Engineering Resilience & 60    & 10,40\% & 4     & 100,00\% \\
+		Top Down CC & 18    & 3,10\% & 4     & 100,00\% \\
+		Micro-Management & 17    & 2,90\% & 4     & 100,00\% \\
+		\bottomrule
+	\end{tabular}%
+	\caption{Results of filtering cases Engineering Resilience on threshold}%
+	\label{tab:resultsfilteringengineeringresilience}%
+\end{table}%
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lllll}
+		\toprule
+		\textbf{Code} & \textbf{Count} & \textbf{\% Codes} &\textbf{Cases} & \textbf{\% Cases} \\
+		\midrule
+		Redundancy & 3     & 0,50\% & 3     & 75,00\% \\
+		Modularity & 5     & 0,90\% & 3     & 75,00\% \\
+		Loosely Coupled & 5     & 0,90\% & 3     & 75,00\% \\
+		\bottomrule
+	\end{tabular}%
+	\caption{Results of filtering cases Systems Resilience on threshold}%
+	\label{tab:resultsfilteringsystemsresilience}%
+\end{table}%
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lllll}
+		\toprule
+		\textbf{Code} & \textbf{Count} & \textbf{\% Codes} &\textbf{Cases} & \textbf{\% Cases} \\
+		\midrule
+		Complex Adaptive System Resilience & 14    & 2,40\% & 3     & 75,00\% \\
+		No Complex Adaptive System Resilience & 18    & 3,10\% & 4     & 100,00\% \\
+		Diversity & 15    & 2,60\% & 3     & 75,00\% \\
+		Optionality & 12    & 2,10\% & 3     & 75,00\% \\
+		No Optionality & 13    & 2,20\% & 4     & 100,00\% \\
+		No Mono-Monotonicity & 13    & 2,20\% & 4     & 100,00\% \\
+		Emergence & 3     & 0,50\% & 3     & 75,00\% \\
+		No Self-Organisation & 3     & 0,50\% & 3     & 75,00\% \\
+		Insert Low Level Stress & 19    & 3,30\% & 3     & 75,00\% \\
+		No Insert Low Level Stress & 6     & 1,00\% & 3     & 75,00\% \\
+		Fail Fast & 6     & 1,00\% & 3     & 75,00\% \\
+		No Fail Fast & 12    & 2,10\% & 3     & 75,00\% \\
+		\bottomrule
+	\end{tabular}%
+	\caption{Results of filtering cases Complex Adaptive Systems Resilience on threshold}%
+	\label{tab:resultsfilteringcasresilience}%
+\end{table}%
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lllll}
+		\toprule
+		\textbf{Code} & \textbf{Count} & \textbf{\% Codes} &\textbf{Cases} & \textbf{\% Cases} \\
+		\midrule
+		Resources to Invest & 7     & 1,20\% & 3     & 75,00\% \\
+		No Resources to Invest & 11    & 1,90\% & 3     & 75,00\% \\
+		Seneca's Barbell & 9     & 1,60\% & 3     & 75,00\% \\
+		No Seneca's Barbell & 6     & 1,00\% & 3     & 75,00\% \\
+		Insert Randomness & 8     & 1,40\% & 3     & 75,00\% \\
+		No Insert Randonmness & 6     & 1,00\% & 3     & 75,00\% \\
+		\bottomrule
+	\end{tabular}%
+	\caption{Results of filtering cases Antifragile on threshold}%
+	\label{tab:resultsfilteringantifragile}%
+\end{table}%
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lllll}
+		\toprule
+		\textbf{Code} & \textbf{Count} & \textbf{\% Codes} &\textbf{Cases} & \textbf{\% Cases} \\
+		\midrule
+		Learning Organisation & 8     & 1,40\% & 4     & 100,00\% \\
+		Personal Mastery & 5     & 0,90\% & 3     & 75,00\% \\
+		Shared Mental Models & 23    & 4,00\% & 3     & 75,00\% \\
+		No Shared Mental Models & 17    & 2,90\% & 3     & 75,00\% \\
+		Building Shared Vision & 16    & 2,80\% & 3     & 75,00\% \\
+		No Building Shared Vision & 13    & 2,20\% & 3     & 75,00\% \\
+		Team Learning & 5     & 0,90\% & 3     & 75,00\% \\
+		\bottomrule
+	\end{tabular}%
+	\caption{Results of filtering cases Learning Organisation on threshold}%
+	\label{tab:resultsfilteringlearningorganisation}%
+\end{table}%
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lllll}
+		\toprule
+		\textbf{Code} & \textbf{Count} & \textbf{\% Codes} &\textbf{Cases} & \textbf{\% Cases} \\
+		\midrule
+		Adapt to business language & 18    & 3,10\% & 4     & 100,00\% \\
+		No Safe Environment & 19    & 3,30\% & 3     & 75,00\% \\
+		Social Responsibility & 14    & 2,40\% & 4     & 100,00\% \\
+		Risk Avoidance & 46    & 8,00\% & 4     & 100,00\% \\
+		\bottomrule
+	\end{tabular}%
+	\caption{Results of filtering cases other findings on threshold}%
+	\label{tab:resultsfilteringotherfindings}%
+\end{table}%
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lllll}
+		\toprule
+		\textbf{Code} & \textbf{Count} & \textbf{\% Codes} &\textbf{Cases} & \textbf{\% Cases} \\
+		\midrule
+		Enterprise IT Architecting	& 21	& 3,60\%	& 4	& 100,00\% \\%		
+		\bottomrule
+	\end{tabular}%
+	\caption{Results of filtering cases Enterprise Architecture schools of thought on threshold}%
+	\label{tab:resultsfilteringenterprisearchitecture}%
+\end{table}%
+
+\section{Step 3:}
+
+
+
+\section{Step 4: Joining positives and negatives}
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{p{.05\textwidth}p{.5\textwidth}p{.45\textwidth}}
+		\toprule
+		\textbf{Step} & \textbf{Description} & \textbf{Rationale} \\
+		\midrule
+		1     & Rationalize Positives and negatives by add/substract & Bringing the values back to the found success factors/attributes \\
+		\bottomrule
+	\end{tabular}%
+	\caption{Data preparation 4 - Joining positives with negatives}
+	\label{tab:prepjoinpositiveswithnegatives}%
+\end{table}%
+
