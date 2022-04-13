@@ -1,11 +1,9 @@
 \documentclass[bibtotoc]{scrreprt}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-%\usepackage[english]{babel}
 \usepackage[british]{babel}
 \usepackage{rotating}
 \usepackage{graphicx}
-%\usepackage{subfigure}
 \usepackage{subcaption}
 \usepackage{caption}
 \usepackage{wrapfig} % For wrapping figures in text.
@@ -27,20 +25,6 @@
 \usepackage{amsfonts} 
 \usepackage[capitalise,nameinlink,noabbrev]{cleveref}
 \MakePerPage{footnote} %the perpage package command
-\newcounter{savefootnote} % Save footnote counter
-%tryout header footer
-
-%automark,autooneside=false,% <- needed if you want to use \leftmark and \rightmark in a onesided document
-
-%\usepackage[automark,headsepline,footsepline]{scrlayer-scrpage}
-%\clearpairofpagestyles
-%\ihead{\leftmark}
-%\ohead{Accelerating in a world of chaos}
-%\chead{}
-%\ifoot{}
-%\cfoot{\pagemark}
-%\ofoot{}
-%\renewcommand*\chapterpagestyle{scrheadings}% default pagestyle on chapter pages is plain
 
 % Add remark without numbering for writing notes
 
@@ -60,7 +44,7 @@
 \newcommand{\needsref}{\textcolor{red}{\textbf{(NEEDS REF)}}}
 
 % glossaries
-\usepackage[toc,acronym]{glossaries}
+\usepackage[toc,acronym,style=altlisthypergroup,nonumberlist]{glossaries}
 \makeglossary
 \input{contents/glossaries}
 \input{contents/abbreviations}
@@ -89,15 +73,14 @@
 	\include{contents/abstract} 		%	Add the abstract
 	\phantomsection
 	% Change title of Table of Contents
-	\renewcommand*\contentsname{Table of Contents}
-	\addcontentsline{toc}{chapter}{Table of Contents}
+	\renewcommand*\contentsname{Table of Contents} % Rename the title of Contents to Table of Contents
+	\addcontentsline{toc}{chapter}{Table of Contents} % Add Table of Contents to the Table of Confents
 	\tableofcontents					%	Add the Table of Contents
 
 	% Body of Thesis
 
 	\clearpage
 	\pagenumbering{arabic}			%	Set pagenumbering to arabic
-	
 	\include{contents/introduction} %	Add the introduction
 	\include{contents/background} 	%	Add the Theoretical Background
 	\include{contents/methodology}	%	Add the methodology
@@ -107,7 +90,8 @@
 	\include{contents/analysis}		%	Add Analysis Chapter
 	\include{contents/conclusion}	%	Add the conclusion
 	\include{contents/retrospective}%	Add the restrospective
-	%
+	
+	% Temporary chapters
 	\include{contents/background_old} % old background
 	\include{contents/conceptuals}	%	Conceptual pieces of text yet to have its place in the thesis
 	%\include{contents/textblocks}	%	Pieces of text that can be used as a template
@@ -121,18 +105,18 @@
 
 	\printbibliography				%	Add Bibliography
 	\newpage
-	\addcontentsline{toc}{chapter}{List of Figures}
+	\addcontentsline{toc}{chapter}{List of Figures} % Add List of Figures to Table of Contents
 	\listoffigures
 	\newpage					%	Add the List of Figures
-	\addcontentsline{toc}{chapter}{List of Tables}
+	\addcontentsline{toc}{chapter}{List of Tables} % Add List of Tables to Table of Contents
 	\listoftables					%	Add the list of Tables
-	\printglossary[title=Glossary of Terms]
-	\printglossary[type=\acronymtype,title=Abbreviations]
+	\printglossary[title=Glossary of Terms] % Add Glossary of Terms
+	\printglossary[type=\acronymtype,title=Abbreviations] % Add Abbreviations
 	
-	\begin{appendices}
+	\begin{appendices}	% Add Appendices
 %		\include{contents/appendix_motivation}
-		\include{contents/appendix_easchools}
-		\include{contents/appendix_easchoolsresearchers}
+		\include{contents/appendix_easchools} % Add EA Schools of thought of Lapalme details
+		\include{contents/appendix_easchoolsresearchers} % Add writers per school of thought of Lapalme
 %		\include{contents/appendix_laws}
 %		\include{contents/appendix_conceptmapattributes}
 %		\include{contents/appendix_interviewees}
