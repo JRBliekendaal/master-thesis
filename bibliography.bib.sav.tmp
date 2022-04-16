@@ -161,20 +161,20 @@
 }
 
 @MastersThesis{Botjes2020,
-  author         = {Botjes, Edzo},
+  author         = {Botjes, Edzo A.},
   title          = {Defining Antifragility and the application on Organisation Design},
-  year           = {2020},
+  doi            = {10.5281/ZENODO.3719389},
+  language       = {en},
   comment        = {AMS001},
   copyright      = {Creative Commons Attribution 4.0 International},
-  doi            = {10.5281/ZENODO.3719389},
   groups         = {Antifragility, Imported bibliography.bib, Used, Imported literature.bib},
   keywords       = {Antifragility, Antifragile, Chaos Engineering, Collective behaviour, Complex Adaptive Systems (CAS), Complexity Management, Complexity Science, Distributed Systems, Emergence, Enterprise Architecture, Enterprise Design, Enterprise Engineering, Enterprise Governance, Entropy, Evolution and adaptation, Game Theory, Network Science, non-Linear Dynamic Systems, Resilience, Risk Management, Self-Organisation, Site Reliability Engineering, Systems Engineering, Systems of Systems, Systems Theory},
-  language       = {en},
   publisher      = {Zenodo},
   qualityassured = {qualityAssured},
   ranking        = {rank5},
   readstatus     = {read},
   relevance      = {relevant},
+  year           = {2020},
 }
 
 @Article{Wal2008,
@@ -950,7 +950,7 @@ systems. This exploration is part of future research.�},
   publisher  = {Morgan Kaufmann},
   comment    = {AMS099},
   keywords   = {Chaotic behavior in systems, Industrial management, System analysis, Technological complexity},
-  shorttitle = {Systems thinking},
+  shorttitle = {Systems thinking: managing chaos and complexity: a platform for designing business architecture},
 }
 
  
@@ -1234,6 +1234,4 @@ systems. This exploration is part of future research.�},
 }
 
 @Article{Foster2017,
-  author       = {Erin D. Foster and Ariel Deardorff},
-  date         = {2017-04},
-  journaltitle = {Journal
+  author       = {Erin D. Fo
