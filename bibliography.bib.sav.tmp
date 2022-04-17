@@ -109,7 +109,9 @@
   pagetotal  = {162},
   publisher  = {Springer},
   series     = {Progress in {IS}},
+  url        = {https://link.springer.com/book/10.1007/978-3-642-30048-6},
   address    = {Berlin Heidelberg New York Dobrecht London},
+  comment    = {AMS129},
   groups     = {Research Methodology},
   shorttitle = {Scientific research in information systems},
   year       = {2013},
@@ -942,7 +944,7 @@ systems. This exploration is part of future research.�},
 @Book{Gharajedaghi2011,
   author     = {Gharajedaghi, Jamshid},
   date       = {2011},
-  title      = {Systems thinking: managing chaos and complexity: a platform for designing business architecture},
+  title      = {Systems thinking: managing chaos and complexity a platform for designing business architecture},
   edition    = {3rd ed},
   isbn       = {978-0-12-385915-0},
   location   = {Burlington, MA},
@@ -950,7 +952,7 @@ systems. This exploration is part of future research.�},
   publisher  = {Morgan Kaufmann},
   comment    = {AMS099},
   keywords   = {Chaotic behavior in systems, Industrial management, System analysis, Technological complexity},
-  shorttitle = {Systems thinking: managing chaos and complexity: a platform for designing business architecture},
+  shorttitle = {Systems thinking: managing chaos and complexity a platform for designing business architecture},
 }
 
  
@@ -1230,8 +1232,4 @@ systems. This exploration is part of future research.�},
   isbn      = {978-1-292-01662-7},
   location  = {New York},
   publisher = {Pearson Education},
-  keywords  = {Business, Research, Research Data processing},
-}
-
-@Article{Foster2017,
-  author       = {Erin D. Fo
+  keywords  = {Bus
