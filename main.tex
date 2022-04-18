@@ -32,6 +32,9 @@
 \theoremstyle{remark}
 \newtheorem*{remark}{\textcolor{red}{\textbf{Remark}}}
 
+% extend cref with footnote marks
+\crefformat{footnote}{#2\footnotemark[#1]#3}
+
 % Add dummy phantomsection for use
 \providecommand\phantomsection{}
 
@@ -75,42 +78,42 @@
 	% Change title of Table of Contents
 	\renewcommand*\contentsname{Table of Contents} % Rename the title of Contents to Table of Contents
 	\addcontentsline{toc}{chapter}{Table of Contents} % Add Table of Contents to the Table of Confents
-	\tableofcontents					%	Add the Table of Contents
+	\tableofcontents						%	Add the Table of Contents
 
 	% Body of Thesis
 
 	\clearpage
-	\pagenumbering{arabic}			%	Set pagenumbering to arabic
-	\include{contents/introduction} %	Add the introduction
-	\include{contents/background} 	%	Add the Theoretical Background
-	\include{contents/methodology}	%	Add the methodology
-	\include{contents/attributes}	%	Add chapter on EAAF Attributes
-	\include{contents/interviews}	%	Interview results
-	\include{contents/expertgroup}	%	Add expert group chapter
-	\include{contents/analysis}		%	Add Analysis Chapter
-	\include{contents/conclusion}	%	Add the conclusion
-	\include{contents/retrospective}%	Add the restrospective
+	\pagenumbering{arabic}						%	Set pagenumbering to arabic
+	\include{contents/introduction} 			%	Add the introduction
+	\include{contents/background} 				%	Add the Theoretical Background
+	\include{contents/methodology}				%	Add the methodology
+	\include{contents/literature}				%	Add the literature chapter
+	\include{contents/attributes}				%	Add chapter on EAAF Attributes
+	\include{contents/interviews}				%	Interview results
+	\include{contents/expertgroup}				%	Add expert group chapter
+	\include{contents/analysis}					%	Add Analysis Chapter
+	\include{contents/conclusion}				%	Add the conclusion
+	\include{contents/retrospective}			%	Add the restrospective
 	
 	% Temporary chapters
-	%\include{contents/background_old} % old background
-	%\include{contents/conceptuals}	%	Conceptual pieces of text yet to have its place in the thesis
-	%\include{contents/textblocks}	%	Pieces of text that can be used as a template
-	%\include{contents/chaptertemplate}	%	Add the Chapter Template
-	%\include{contents/delphi}	%	Validation of the artefact by using Delphi
-	%\include{contents/discussion}	%	Add the discussion
-	%\include{contents/afenterprisearchitecture} %	Add the analysis of antifragile and enterprise architecture
-	%\include{contents/vucapublicsector}	% Chapter about the importance in the public sector market
+%	\include{contents/background_old} 			% old background
+%	\include{contents/conceptuals}				%	Conceptual pieces of text yet to have its place in the thesis
+	%\include{contents/textblocks}				%	Pieces of text that can be used as a template
+%	\include{contents/chaptertemplate}			%	Add the Chapter Template
+%	\include{contents/discussion}				%	Add the discussion
+%	\include{contents/afenterprisearchitecture} %	Add the analysis of antifragile and enterprise architecture
+%	\include{contents/vucapublicsector}			% Chapter about the importance in the public sector market
 
 	% Tail of Thesis
 
-	\printbibliography[title={References}]		%	Add Bibliography
-	\newpage
+	\printbibliography[title={References}]			%	Add Bibliography
+	\newpage										%
 	\addcontentsline{toc}{chapter}{List of Figures} % Add List of Figures to Table of Contents
-	\listoffigures
-	\newpage					%	Add the List of Figures
-	\addcontentsline{toc}{chapter}{List of Tables} % Add List of Tables to Table of Contents
-	\listoftables					%	Add the list of Tables
-	\printglossary[title=Glossary of Terms] % Add Glossary of Terms
+	\listoffigures									%	Add the List of Figures
+	\newpage										%			
+	\addcontentsline{toc}{chapter}{List of Tables} 	% Add List of Tables to Table of Contents
+	\listoftables									%	Add the list of Tables
+	\printglossary[title=Glossary of Terms] 		% Add Glossary of Terms
 	\printglossary[type=\acronymtype,title=Abbreviations] % Add Abbreviations
 	
 	\begin{appendices}	% Add Appendices
@@ -119,6 +122,7 @@
 		\include{contents/appendix_easchoolsresearchers} % Add writers per school of thought of Lapalme
 %		\include{contents/appendix_laws}
 		\include{contents/appendix_conceptmapattributes}
+		\include{contents/appendix_literaturecatchup}
 %		\include{contents/appendix_interviewees}
 %		\include{contents/appendix_delphigroup}
 		%\include{contents/appendix_literatureselection}
@@ -126,7 +130,7 @@
 		\include{contents/appendix_interviewfindings}
 		\include{contents/appendix_datapreparationforanalysis}
 		\include{contents/appendix_validationfindings}
-		%\include{contents/appendix_researchlog}
+		\include{contents/appendix_researchlog}
 	\end{appendices}
 
 \end{document}

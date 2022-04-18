@@ -1,0 +1,1062 @@
+@Article{Wied2020,
+  author       = {Wied, Morten and Oehmen, Josef and Welo, Torgeir},
+  date         = {2020},
+  journaltitle = {Systems Engineering},
+  title        = {Conceptualizing resilience in engineering systems: An analysis of the literature},
+  number       = {1},
+  pages        = {3--13},
+  volume       = {23},
+  comment      = {AMS078},
+  groups       = {Not Relevant},
+  publisher    = {Wiley Online Library},
+}
+
+@Article{Li2021,
+  author       = {Li, Yanwei and Taeihagh, Araz and de Jong, Martin and Klinke, Andreas},
+  date         = {2021},
+  journaltitle = {Risk analysis},
+  title        = {Toward a commonly shared public policy perspective for analyzing risk coping strategies},
+  number       = {3},
+  pages        = {519--532},
+  volume       = {41},
+  comment      = {AMS079
+Relevant to risk and governments! in relation to a framework that also states taleb.},
+  groups       = {Relevant},
+  publisher    = {Wiley Online Library},
+  relevance    = {relevant},
+}
+
+@Article{Raimundo2022,
+  author       = {Raimundo, Ricardo Jorge and Ros{\'a}rio, Alb{\'e}rico Travassos},
+  date         = {2022},
+  journaltitle = {Applied Sciences},
+  title        = {Cybersecurity in the Internet of Things in Industrial Management},
+  number       = {3},
+  pages        = {1598},
+  volume       = {12},
+  comment      = {AMS080 Not relevant. Mostly about IoT. Only one reference to another paper (not Taleb).},
+  groups       = {Not Relevant},
+  publisher    = {Multidisciplinary Digital Publishing Institute},
+}
+
+@Article{Ping2021,
+  author       = {Ping, Li Peter and Jiazhe, Zhu},
+  date         = {2021},
+  journaltitle = {Foreign Economics \& Management},
+  title        = {A Literature Review of Organizational Resilience},
+  number       = {03},
+  pages        = {25--41},
+  volume       = {43},
+  comment      = {Did not find any source!},
+  groups       = {Not Relevant},
+  publisher    = {Editorial Office of Foreign Economics \& Management},
+}
+
+@Article{Brocal2019,
+  author       = {Brocal, Francisco and Gonz{\'a}lez, Cristina and Komljenovic, Dragan and Katina, Polinpapilinho F and Sebasti{\'a}n, Miguel A},
+  date         = {2019},
+  journaltitle = {complexity},
+  title        = {Emerging risk management in industry 4.0: an approach to improve organizational and human performance in the complex systems},
+  volume       = {2019},
+  comment      = {AMS081 Only about emerging risks. No direct relevance to Antifragile. Only mentions for context Taleb ones.},
+  groups       = {Not Relevant},
+  publisher    = {Hindawi},
+}
+
+﻿
+@Article{Munoz2022,
+  author                     = {Munoz, Albert and Billsberry, Jon and Ambrosini, Veronique},
+  date                       = {2022-01-24},
+  journaltitle               = {{INTERNATIONAL JOURNAL OF MANAGEMENT REVIEWS}},
+  title                      = {{Resilience, robustness, and antifragility: Towards an appreciation of distinct organizational responses to adversity}},
+  doi                        = {{10.1111/ijmr.12289}},
+  issn                       = {{1460-8545}},
+  language                   = {{English}},
+  abstract                   = {{Hillmann and Guenther provide an extensive review of research into
+   organizational resilience in which they examine the different
+   conceptualisations of the concept and their associated measurement
+   scales. Their article emphasises stability, rather than other domains
+   such as growth, as core to organizational resilience. We argue that this
+   emphasis does not acknowledge the overlap between resilience and
+   associated but distinctly different concepts like robustness and
+   antifragility as observable phenomena in organizational responses to
+   adversity. To extend Hillmann and Guenther's work, we therefore
+   conceptually contrast resilience with robustness and antifragility so
+   that future research might craft a more nuanced understanding of the
+   presence of all three concepts in management research, which is
+   currently dominated by resilience.}},
+  affiliation                = {{Billsberry, J (Corresponding Author), Univ Wollongong, Northfields Ave, Wollongong, NSW 2522, Australia. Munoz, Albert; Billsberry, Jon, Univ Wollongong, Northfields Ave, Wollongong, NSW 2522, Australia. Ambrosini, Veronique, Monash Univ, 900 Dandenong Rd, Caulfield, Vic, Australia.}},
+  author-email               = {{jbillsbe@uow.edu.au}},
+  comment                    = {AMS082},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{YL9IW}},
+  earlyaccessdate            = {{JAN 2022}},
+  eissn                      = {{1468-2370}},
+  groups                     = {Relevant},
+  journal-iso                = {{Int. J. Manag. Rev.}},
+  keywords-plus              = {{SUPPLY CHAIN RESILIENCE; METHODOLOGY; CAPACITY; PATHS}},
+  location                   = {{111 RIVER ST, HOBOKEN 07030-5774, NJ USA}},
+  number-of-cited-references = {{61}},
+  oa                         = {{hybrid}},
+  publisher                  = {{WILEY}},
+  research-areas             = {{Business \& Economics}},
+  times-cited                = {{0}},
+  type                       = {{Article; Early Access}},
+  unique-id                  = {{WOS:000746200400001}},
+  usage-count-last-180-days  = {{3}},
+  usage-count-since-2013     = {{3}},
+  web-of-science-categories  = {{Business; Management}},
+  web-of-science-index       = {{Social Science Citation Index (SSCI)}},
+}
+
+@Article{OReilly2021,
+  author                     = {O'Reilly, Barry M.},
+  journaltitle               = {{PHILOSOPHIES}},
+  title                      = {{The Machine in the Ghost: Autonomy, Hyperconnectivity, and Residual Causality}},
+  doi                        = {{10.3390/philosophies6040081}},
+  language                   = {{English}},
+  number                     = {{4}},
+  volume                     = {{6}},
+  abstract                   = {{This article will examine the unnamed and potentially devastating
+   constraining effect of software on human autonomy. I call this concept
+   residual causality, where software design decisions made long ago in
+   different circumstances for different reasons constrain human action in
+   an unknown future. The less aware the designers of software systems are
+   of complexity in social systems, the more likely they are to introduce
+   residual causality. The introduction of intricate, ordered machines, to
+   a world largely defined by disorder and heuristics, has caused
+   philosophical perturbations that we have not fully dealt with. The
+   machine in the ghost is the belief that machine thinking can be applied
+   to the environment in which the machine will operate. As
+   hyperconnectivity increases, the ghost becomes more unpredictable,
+   unmanageable, and even less like the machine. If we continue to indulge
+   the machine view of the world, the design of software systems presents
+   real dangers to the autonomy of the individual and the functioning of
+   our societies. The steadfastness of machine ontologies in the
+   philosophies of software architects risks creating increasing residual
+   causality as hyperconnectivity increases. Shifting the philosophical
+   position of software architects opens up the possibility of discovering
+   new methods that make it easier to avoid these dangers.}},
+  affiliation                = {{O'Reilly, BM (Corresponding Author), Open Univ, Dept Complex \& Design, Sch Engn \& Innovat, Milton Keynes MK7 6AA, Bucks, England. O'Reilly, Barry M., Open Univ, Dept Complex \& Design, Sch Engn \& Innovat, Milton Keynes MK7 6AA, Bucks, England.}},
+  article-number             = {{81}},
+  author-email               = {{barry@blacktulip.se}},
+  comment                    = {AMS083
+
+Do not forget the coupling with the environment!!!},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{YA3SV}},
+  eissn                      = {{2409-9287}},
+  groups                     = {Relevant, Not Relevant},
+  journal-iso                = {{Philosophies}},
+  keywords                   = {{residuality; antifragility; complexity; hyperliminal systems; hyperliminal coupling}},
+  keywords-plus              = {{SYSTEMS; PHILOSOPHY}},
+  location                   = {{ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND}},
+  month                      = {{DEC}},
+  number-of-cited-references = {{43}},
+  oa                         = {{Green Published}},
+  publisher                  = {{MDPI}},
+  relevance                  = {relevant},
+  research-areas             = {{History \& Philosophy of Science; Philosophy}},
+  times-cited                = {{0}},
+  type                       = {{Article}},
+  unique-id                  = {{WOS:000738258100001}},
+  usage-count-last-180-days  = {{0}},
+  usage-count-since-2013     = {{0}},
+  web-of-science-categories  = {{History \& Philosophy Of Science; Philosophy}},
+  web-of-science-index       = {{Emerging Sources Citation Index (ESCI)}},
+  year                       = {{2021}},
+}
+
+@Article{Bridge2021,
+  author                     = {Bridge, Simon},
+  journaltitle               = {{JOURNAL OF MANAGEMENT \& ORGANIZATION}},
+  title                      = {{Facing uncertainty: An entrepreneurial view of the future?}},
+  doi                        = {{10.1017/jmo.2018.65}},
+  issn                       = {{1833-3672}},
+  language                   = {{English}},
+  number                     = {{2}},
+  pages                      = {{312-323}},
+  volume                     = {{27}},
+  abstract                   = {{In business the future is not predetermined, and the unexpected often
+   happens. So how should entrepreneurs (and businesses) try to address
+   that future uncertainty? This paper suggests that there are two main
+   options: The often-preferred approach seeks to reduce uncertainty by
+   forecasting and planning, using `left-brained' logic and analysis. The
+   alternative way seeks to live with, and to benefit from, uncertainty by
+   using ideas derived from exploration, effectuation, antifragility and
+   `trial and error'. This paper compares the two approaches and considers
+   their rationales and potential effectiveness. It suggests that
+   forecasting and planning has many drawbacks and is often not the best
+   way to operate in uncertain conditions. Nevertheless, it is often
+   advocated and its thinking seems to have been adopted as the default
+   philosophy for business. Therefore if, as has been suggested,
+   uncertainty is the norm, do we need to advocate adopting a different way
+   of thinking?}},
+  affiliation                = {{Bridge, S (Corresponding Author), Ulster Univ, Business Sch, Belfast, Antrim, North Ireland. Bridge, Simon, Ulster Univ, Business Sch, Belfast, Antrim, North Ireland.}},
+  article-number             = {{PII S1833367218000652}},
+  author-email               = {{simonbridge@btconnect.com}},
+  comment                    = {AMS084},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{TQ9KS}},
+  eissn                      = {{1839-3527}},
+  groups                     = {Relevant},
+  journal-iso                = {{J. Manag. Organ.}},
+  keywords                   = {{uncertainty; prediction; forecasting; planning; exploring; antifragile}},
+  keywords-plus              = {{EFFECTUATION}},
+  location                   = {{EDINBURGH BLDG, SHAFTESBURY RD, CB2 8RU CAMBRIDGE, ENGLAND}},
+  month                      = {{MAR}},
+  number-of-cited-references = {{32}},
+  oa                         = {{Bronze}},
+  publisher                  = {{CAMBRIDGE UNIV PRESS}},
+  relevance                  = {relevant},
+  research-areas             = {{Business \& Economics}},
+  times-cited                = {{2}},
+  type                       = {{Article}},
+  unique-id                  = {{WOS:000678595300006}},
+  usage-count-last-180-days  = {{4}},
+  usage-count-since-2013     = {{4}},
+  web-of-science-categories  = {{Management}},
+  web-of-science-index       = {{Social Science Citation Index (SSCI)}},
+  year                       = {{2021}},
+}
+
+@Article{Hole2022,
+  author                     = {Hole, Kjell Jorgen},
+  journaltitle               = {{COMPUTING}},
+  title                      = {{Tutorial on systems with antifragility to downtime}},
+  doi                        = {{10.1007/s00607-020-00895-6}},
+  issn                       = {{0010-485X}},
+  language                   = {{English}},
+  number                     = {{1}},
+  pages                      = {{73-93}},
+  volume                     = {{104}},
+  abstract                   = {{An antifragile system of software and stakeholders, including designers,
+   developers, and operators, learn from incidents how to avoid outages and
+   maintain high uptime. This tutorial article reviews how to design and
+   operate such socio-technical systems with antifragility to downtime. It
+   documents the importance of four design principles and two operational
+   principles by exploring the polar opposite anti-principles and the
+   interplay between the principles and the anti-principles. The design
+   principles mandate a software design of separate and isolatable
+   processes with sufficient diversity and redundancy. The processes should
+   communicate asynchronously over an external network. The operational
+   principles imply that the software development teams should repeatedly
+   inject artificial failures into the production system to understand its
+   behavior and detect and mitigate vulnerabilities as the system and its
+   environment change.}},
+  affiliation                = {{Hole, KJ (Corresponding Author), Simula UiB, Thormohlensgate 53D, N-5006 Bergen, Norway. Hole, Kjell Jorgen, Simula UiB, Thormohlensgate 53D, N-5006 Bergen, Norway.}},
+  author-email               = {{hole@simula.no}},
+  comment                    = {AMS085
+Scope too narrow only on Software Systems. Rest is identical to how taleb, botjes, and others descibe. No added value for my research.},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{YI0MA}},
+  earlyaccessdate            = {{JAN 2021}},
+  eissn                      = {{1436-5057}},
+  groups                     = {Not Relevant},
+  journal-iso                = {{Computing}},
+  keywords                   = {{Antifragility; Distributed systems; Design principles; Uptime}},
+  location                   = {{SACHSENPLATZ 4-6, PO BOX 89, A-1201 WIEN, AUSTRIA}},
+  month                      = {{JAN}},
+  number-of-cited-references = {{52}},
+  oa                         = {{hybrid}},
+  publisher                  = {{SPRINGER WIEN}},
+  research-areas             = {{Computer Science}},
+  times-cited                = {{0}},
+  type                       = {{Article}},
+  unique-id                  = {{WOS:000605535300001}},
+  usage-count-last-180-days  = {{0}},
+  usage-count-since-2013     = {{1}},
+  web-of-science-categories  = {{Computer Science, Theory \& Methods}},
+  web-of-science-index       = {{Science Citation Index Expanded (SCI-EXPANDED)}},
+  year                       = {{2022}},
+}
+
+@InProceedings{Grassi2021,
+  author                     = {Grassi, Vincenzo and Mirandola, Raffaela},
+  booktitle                  = {{2021 IEEE 18TH INTERNATIONAL CONFERENCE ON SOFTWARE ARCHITECTURE COMPANION (ICSA-C)}},
+  title                      = {{The Tao way to anti-fragile software architectures: the case of mobile applications}},
+  doi                        = {{10.1109/ICSA-C52384.2021.00021}},
+  isbn                       = {{978-1-6654-3910-7}},
+  language                   = {{English}},
+  location                   = {{10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1264 USA}},
+  note                       = {{18th IEEE International Conference on Software Architecture (ICSA), Infos e V, ELECTR NETWORK, MAR 22-26, 2021}},
+  organization               = {{IEEE; IEEE Comp Soc}},
+  pages                      = {{86-89}},
+  publisher                  = {{IEEE COMPUTER SOC}},
+  abstract                   = {{In an ever-changing world software architects need to embrace
+   uncertainty and changes to exploit them in building better systems. We
+   suggest that looking at the Taoist philosophy and its incarnation in the
+   martial arts domain can help to promote this mental attitude and to get
+   a better understanding of the potentialities of existing architectural
+   approaches, using as a testbed the field of mobile applications design.}},
+  affiliation                = {{Grassi, V (Corresponding Author), Univ Roma Tor Vergata, Rome, Italy. Grassi, Vincenzo, Univ Roma Tor Vergata, Rome, Italy. Mirandola, Raffaela, Politecn Milan, Milan, Italy.}},
+  author-email               = {{vincenzo.grassi@uniroma2.it raffaela.mirandola@polimi.it}},
+  book-group-author          = {{IEEE COMP SOC}},
+  comment                    = {AMS086 Monstly about web apps. with a different approach on Yin/Yang},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{BR9GR}},
+  groups                     = {Not Relevant},
+  keywords                   = {{Software Architecture; Resilience; Anti-Fragility; Mobile Applications}},
+  number-of-cited-references = {{19}},
+  research-areas             = {{Computer Science}},
+  times-cited                = {{0}},
+  type                       = {{Proceedings Paper}},
+  unique-id                  = {{WOS:000675591700015}},
+  usage-count-last-180-days  = {{0}},
+  usage-count-since-2013     = {{0}},
+  web-of-science-categories  = {{Computer Science, Hardware \& Architecture; Computer Science, Software Engineering}},
+  web-of-science-index       = {{Conference Proceedings Citation Index - Science (CPCI-S)}},
+  year                       = {{2021}},
+}
+
+@InProceedings{OReilly2021a,
+  author                     = {O'Reilly, Barry M.},
+  booktitle                  = {{12TH INTERNATIONAL CONFERENCE ON AMBIENT SYSTEMS, NETWORKS AND TECHNOLOGIES (ANT) / THE 4TH INTERNATIONAL CONFERENCE ON EMERGING DATA AND INDUSTRY 4.0 (EDI40) / AFFILIATED WORKSHOPS}},
+  title                      = {{The Philosophy of Residuality Theory}},
+  doi                        = {{10.1016/j.procs.2021.03.101}},
+  editor                     = {{Shakshuki, E and Yasar, A}},
+  language                   = {{English}},
+  location                   = {{SARA BURGERHARTSTRAAT 25, PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS}},
+  note                       = {{12th International Conference on Ambient Systems, Networks and Technologies (ANT) / 4th International Conference on Emerging Data and Industry 4.0 (EDI40), Warsaw, POLAND, MAR 23-26, 2021}},
+  pages                      = {{809-816}},
+  publisher                  = {{ELSEVIER SCIENCE BV}},
+  series                     = {{Procedia Computer Science}},
+  volume                     = {{184}},
+  abstract                   = {{Residuality theory {[}1] states that the future of a system is a
+   function of its residues - the leftovers of the system after the impact
+   of a stressor. A stressor is anything that is previously unseen or
+   unknown that impacts the system. A system is said to be residual when
+   its design is expressed in terms of residues and stressors. Residuality
+   theory assumes that the likelihood, order, and scale of impact of these
+   stressors cannot be known in advance in any sufficiently complex system,
+   and that these properties are never static across time as any stressor
+   impact means that the system has changed. Residuality theory argues for
+   the designers of software systems using residues as the building blocks
+   of system design as opposed to components or processes. The result of
+   residual analysis is a structure that does not depend on the individual
+   pieces that made it up, (in fact the system may not survive some of the
+   initial stressors used to inform its design) but on the overall ability
+   of the system to respond to unknown stressors - the whole should be seen
+   to be more than the sum of its parts. The ability to survive stress that
+   the system is not designed for is considered to move the system toward
+   antifragility {[}2]. This article investigates the philosophical
+   assumptions behind these ideas and compares and contrasts them with
+   those of conventional practices within software architecture (C) 2021
+   The Authors. Published by Elsevier B.V.}},
+  affiliation                = {{O'Reilly, BM (Corresponding Author), Open Univ, Black Tulip Technol, Milton Keynes, Bucks, England. O'Reilly, Barry M., Open Univ, Black Tulip Technol, Milton Keynes, Bucks, England.}},
+  author-email               = {{barry@blacktulip.se}},
+  comment                    = {Double},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{BR8RS}},
+  groups                     = {Not Relevant},
+  issn                       = {{1877-0509}},
+  keywords                   = {{residuality theory; antifragile; systems engineering; software architecture}},
+  number-of-cited-references = {{11}},
+  oa                         = {{gold}},
+  research-areas             = {{Computer Science; Telecommunications}},
+  times-cited                = {{1}},
+  type                       = {{Proceedings Paper}},
+  unique-id                  = {{WOS:000672800000106}},
+  usage-count-last-180-days  = {{1}},
+  usage-count-since-2013     = {{1}},
+  web-of-science-categories  = {{Computer Science, Theory \& Methods; Telecommunications}},
+  web-of-science-index       = {{Conference Proceedings Citation Index - Science (CPCI-S)}},
+  year                       = {{2021}},
+}
+
+@Article{Daalen2020,
+  author                     = {van Daalen, Els},
+  journaltitle               = {{SYSTEMS RESEARCH AND BEHAVIORAL SCIENCE}},
+  title                      = {{On the meaning and operationalization of antifragility: Comment on the paper by Grossler}},
+  doi                        = {{10.1002/sres.2760}},
+  issn                       = {{1092-7026}},
+  language                   = {{English}},
+  number                     = {{6, SI}},
+  pages                      = {{906-907}},
+  volume                     = {{37}},
+  affiliation                = {{van Daalen, E (Corresponding Author), Delft Univ Technol, Fac Technol Policy \& Management, Delft, Netherlands. van Daalen, Els, Delft Univ Technol, Fac Technol Policy \& Management, Delft, Netherlands.}},
+  author-email               = {{c.vandaalen@tudelft.nl}},
+  comment                    = {AMS087 Ranting on anothers paper. Not relevant.},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{PR8VO}},
+  earlyaccessdate            = {{DEC 2020}},
+  eissn                      = {{1099-1743}},
+  groups                     = {Not Relevant},
+  journal-iso                = {{Syst. Res. Behav. Sci.}},
+  location                   = {{111 RIVER ST, HOBOKEN 07030-5774, NJ USA}},
+  month                      = {{NOV}},
+  number-of-cited-references = {{1}},
+  oa                         = {{hybrid, Green Published}},
+  publisher                  = {{WILEY}},
+  research-areas             = {{Business \& Economics; Social Sciences - Other Topics}},
+  times-cited                = {{0}},
+  type                       = {{Editorial Material}},
+  unique-id                  = {{WOS:000597650800001}},
+  usage-count-last-180-days  = {{2}},
+  usage-count-since-2013     = {{4}},
+  web-of-science-categories  = {{Management; Social Sciences, Interdisciplinary}},
+  web-of-science-index       = {{Social Science Citation Index (SSCI)}},
+  year                       = {{2020}},
+}
+
+@Article{Vimaladevi2020,
+  author                     = {Vimaladevi, M. and Zayaraz, G.},
+  journaltitle               = {{JOURNAL OF CASES ON INFORMATION TECHNOLOGY}},
+  title                      = {{A Game Theoretic Approach for Quality Assurance in Software Systems Using Antifragility-Based Learning Hooks}},
+  doi                        = {{10.4018/JCIT.2020070101}},
+  issn                       = {{1548-7717}},
+  language                   = {{English}},
+  number                     = {{3}},
+  pages                      = {{1-18}},
+  volume                     = {{22}},
+  abstract                   = {{The use of software in mission critical applications poses greater
+   quality needs. Quality assurance activities are aimed at ensuring such
+   quality requirements of the software system. Antifragility is a property
+   of software that increases its quality as a result of errors, faults,
+   and attacks. Such antifragile software systems proactively accepts the
+   errors and learns from these errors and relies on test-driven
+   development methodology. In this article, an innovative approach is
+   proposed which uses a fault injection methodology to perform the task of
+   quality assurance. Such a fault injection mechanism makes the software
+   antifragile and it gets better with the increase in the intensity of
+   such errors up to a point. A software quality game is designed as a
+   two-player game model with stressor and backer entities. The stressor is
+   an error model which injects errors into the software system. The
+   software system acts as a backer, and tries to recover from the errors.
+   The backer uses a cheating mechanism by implementing software Learning
+   Hooks (SLH) which learn from the injected errors. This makes the
+   software antifragile and leads to improvement of the code. Moreover, the
+   SLH uses a Q-Learning reinforcement algorithm with a hybrid reward
+   function to learn from the incoming defects. The game is played for a
+   maximum of K errors. This approach is introduced to incorporate the
+   anti-fragility aspects into the software system within the existing
+   framework of object-oriented development. The game is run at the end of
+   every increment during the construction of object-oriented systems. A
+   detailed report of the injected errors and the actions taken is output
+   at the end of each increment so that necessary actions are incorporated
+   into the actual software during the next iteration. This ensures at the
+   end of all the iterations, the software is immune to majority of the
+   so-called Black Swans. The experiment is conducted with an open source
+   Java sample and the results are studied selected two categories of
+   evaluation parameters. The defect related performance parameters
+   considered are the defect density, defect distribution over different
+   iterations, and number of hooks inserted. These parameters show much
+   reduction in adopting the proposed approach. The quality parameters such
+   as abstraction, inheritance, and coupling are studied for various
+   iterations and this approach ensures considerable increases in these
+   parameters.}},
+  affiliation                = {{Vimaladevi, M (Corresponding Author), Pondicherry Engn Coll, Dept Comp Sci \& Engn, Pondicherry, India. Vimaladevi, M.; Zayaraz, G., Pondicherry Engn Coll, Dept Comp Sci \& Engn, Pondicherry, India.}},
+  comment                    = {Not publicly available},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{LV1EN}},
+  eissn                      = {{1548-7725}},
+  funding-acknowledgement    = {{Quality improvement Programme (QIP)}},
+  funding-text               = {{This research work is funded by the Quality improvement Programme (QIP) launched by All India Council for Technical Education (AICTE), Government of India.}},
+  groups                     = {Not Relevant},
+  journal-iso                = {{J. Cases Inf. Technol.}},
+  keywords                   = {{Antifragility; Defect Metrics; Fault Injection; Game Theory; Graph Metrics; Hooking Methods; Q-Learning; Quality Attributes}},
+  keywords-plus              = {{MODEL}},
+  location                   = {{701 E CHOCOLATE AVE, STE 200, HERSHEY, PA 17033-1240 USA}},
+  month                      = {{JUL-SEP}},
+  number-of-cited-references = {{28}},
+  oa                         = {{Bronze}},
+  orcid-numbers              = {{Madhivanan, Vimaladevi/0000-0002-2779-4061}},
+  publisher                  = {{IGI GLOBAL}},
+  research-areas             = {{Computer Science}},
+  researcherid-numbers       = {{Madhivanan, Vimaladevi/ABE-8558-2021}},
+  times-cited                = {{0}},
+  type                       = {{Article}},
+  unique-id                  = {{WOS:000538185300002}},
+  usage-count-last-180-days  = {{0}},
+  usage-count-since-2013     = {{1}},
+  web-of-science-categories  = {{Computer Science, Information Systems}},
+  web-of-science-index       = {{Emerging Sources Citation Index (ESCI)}},
+  year                       = {{2020}},
+}
+
+@Article{Koien2020,
+  author                     = {Koien, Geir M.},
+  journaltitle               = {{WIRELESS PERSONAL COMMUNICATIONS}},
+  title                      = {{A Philosophy of Security Architecture Design}},
+  doi                        = {{10.1007/s11277-020-07310-5}},
+  issn                       = {{0929-6212}},
+  language                   = {{English}},
+  number                     = {{3, SI}},
+  pages                      = {{1615-1639}},
+  volume                     = {{113}},
+  abstract                   = {{Digital systems are almost always vulnerable, yet we increasingly depend
+   on these systems. There will be many threats towards these system. In a
+   fully networked system, the vulnerabilities will literally be exposed to
+   the whole world. The exposed vulnerabilities may be transformed into
+   attacks. To counter this state of ``vulnerability{''}, the standard
+   remedy is to conduct security requirements analysis and security threat
+   modeling. Threats are assessed, and various countermeasures are devised.
+   The totality of these measures may be described as a security
+   architecture. The goal of a security architecture will largely be to
+   make the system robust and resilient in the face of an adversary.
+   However, we shall argue that this is not enough. Security architecture
+   designs should go one step further, and actually improve the defenses
+   when faced with hostile actions. That is, the security architectures
+   must become antifragile.}},
+  affiliation                = {{Koien, GM (Corresponding Author), Univ South Eastern Norway USN, Campus Vestfold, Horten, Norway. Koien, Geir M., Univ South Eastern Norway USN, Campus Vestfold, Horten, Norway.}},
+  author-email               = {{geir.koien@usn.no}},
+  comment                    = {AMS088 Method is about mitigating and planning (so not so really about antifragile). It is all about avoiding stressors. So not relevant!},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{MK3CO}},
+  earlyaccessdate            = {{APR 2020}},
+  eissn                      = {{1572-834X}},
+  funding-acknowledgement    = {{University Of South-Eastern Norway}},
+  funding-text               = {{Open Access funding provided by University Of South-Eastern Norway.}},
+  groups                     = {Not Relevant},
+  journal-iso                = {{Wirel. Pers. Commun.}},
+  keywords                   = {{Security architectures; Vulnerability; Exposure; Scalability; Intruder; Threats; Threat model; Risk; Robustness; Resilience; Antifragile}},
+  location                   = {{ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES}},
+  month                      = {{AUG}},
+  number-of-cited-references = {{32}},
+  oa                         = {{hybrid}},
+  publisher                  = {{SPRINGER}},
+  research-areas             = {{Telecommunications}},
+  times-cited                = {{1}},
+  type                       = {{Article}},
+  unique-id                  = {{WOS:000529857600003}},
+  usage-count-last-180-days  = {{1}},
+  usage-count-since-2013     = {{2}},
+  web-of-science-categories  = {{Telecommunications}},
+  web-of-science-index       = {{Science Citation Index Expanded (SCI-EXPANDED)}},
+  year                       = {{2020}},
+}
+
+@Article{Equihua2020,
+  author                     = {Equihua, Miguel and Espinosa Aldama, Mariana and Gershenson, Carlos and Lopez-Corona, Oliver and Munguia, Mariana and Perez-Maqueo, Octavio and Ramirez-Carrillo, Elvia},
+  journaltitle               = {{PEERJ}},
+  title                      = {{Ecosystem antifragility: beyond integrity and resilience}},
+  doi                        = {{10.7717/peerj.8533}},
+  issn                       = {{2167-8359}},
+  language                   = {{English}},
+  volume                     = {{8}},
+  abstract                   = {{We review the concept of ecosystem resilience in its relation to
+   ecosystem integrity from an information theory approach. We summarize
+   the literature on the subject identifying three main narratives:
+   ecosystem properties that enable them to be more resilient; ecosystem
+   response to perturbations; and complexity. We also include original
+   ideas with theoretical and quantitative developments with application
+   examples. The main contribution is a new way to rethink resilience, that
+   is mathematically formal and easy to evaluate heuristically in
+   real-world applications: ecosystem antifragility. An ecosystem is
+   antifragile if it benefits from environmental variability. Antifragility
+   therefore goes beyond robustness or resilience because while
+   resilient/robust systems are merely perturbation-resistant, antifragile
+   structures not only withstand stress but also benefit from it.}},
+  affiliation                = {{Lopez-Corona, O (Corresponding Author), Inst Ecol AC, Red Ambiente \& Sustentabilidad, Xalapa, Veracruz, Mexico. Lopez-Corona, O (Corresponding Author), Univ Nacl Autonoma Mexico, Ctr Ciencias Complejidad C3, Cdmx, Mexico. Lopez-Corona, O (Corresponding Author), Comis Nacl Conocimiento \& Uso Biodiversidad CONAB, CONACyT, Cdmx, Mexico. Ramirez-Carrillo, E (Corresponding Author), Univ Nacl Autonoma Mexico, Fac Psicol, Cdmx, Mexico. Equihua, Miguel; Lopez-Corona, Oliver; Perez-Maqueo, Octavio, Inst Ecol AC, Red Ambiente \& Sustentabilidad, Xalapa, Veracruz, Mexico. Espinosa Aldama, Mariana, UAM Cuajimalpa, Ciencias Sociales \& Humanidades, Cdmx, Mexico. Gershenson, Carlos, Univ Nacl Autonoma Mexico, IIMAS, Cdmx, Mexico. Gershenson, Carlos; Lopez-Corona, Oliver, Univ Nacl Autonoma Mexico, Ctr Ciencias Complejidad C3, Cdmx, Mexico. Gershenson, Carlos, ITMO Univ, St Petersburg, Russia. Lopez-Corona, Oliver, Comis Nacl Conocimiento \& Uso Biodiversidad CONAB, CONACyT, Cdmx, Mexico. Munguia, Mariana, Comis Nacl Conocimiento \& Uso Biodiversidad CONAB, Cdmx, Mexico. Ramirez-Carrillo, Elvia, Univ Nacl Autonoma Mexico, Fac Psicol, Cdmx, Mexico.}},
+  article-number             = {{e8533}},
+  author-email               = {{olopez@conacyt.mx elviarc@otrasenda.org}},
+  comment                    = {AMS089 Wrong Ecosystems ;(},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{KK5DC}},
+  funding-acknowledgement    = {{CONACyT fund {[}M0037-2018-07, 296842]; Catedras CONACyT fellowship program {[}30]; Sistema Nacional de Investigadores SNI {[}62929]}},
+  funding-text               = {{This work was supported by CONACyT fund M0037-2018-07, Number 296842, Catedras CONACyT fellowship program (Project Number 30), and Sistema Nacional de Investigadores SNI, Numbers 62929. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.}},
+  groups                     = {Not Relevant},
+  journal-iso                = {{PeerJ}},
+  keywords                   = {{Antifragility; Ecosystem integrity; Resilience; Complexity}},
+  keywords-plus              = {{FISHER INFORMATION; REGIME CHANGES; SELF-ORGANIZATION; SCALE-INVARIANCE; SUSTAINABILITY; COMPLEXITY; FOREST; BIODIVERSITY; DIVERSITY; STABILITY}},
+  location                   = {{341-345 OLD ST, THIRD FLR, LONDON, EC1V 9LL, ENGLAND}},
+  month                      = {{FEB 11}},
+  number-of-cited-references = {{131}},
+  oa                         = {{Green Published, gold}},
+  orcid-numbers              = {{Gershenson, Carlos/0000-0003-0193-3067 Lopez Corona, Oliver/0000-0002-2926-7791 Munguia, Mariana/0000-0003-3514-3397 Perez-Maqueo, Octavio/0000-0002-4528-3548}},
+  publisher                  = {{PEERJ INC}},
+  research-areas             = {{Science \& Technology - Other Topics}},
+  researcherid-numbers       = {{Gershenson, Carlos/F-2241-2010 Perez-Maqueo, Octavio/Q-8107-2018}},
+  times-cited                = {{3}},
+  type                       = {{Article}},
+  unique-id                  = {{WOS:000512761400011}},
+  usage-count-last-180-days  = {{13}},
+  usage-count-since-2013     = {{18}},
+  web-of-science-categories  = {{Multidisciplinary Sciences}},
+  web-of-science-index       = {{Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)}},
+  year                       = {{2020}},
+}
+
+@Article{Ramezani2020,
+  author                     = {Ramezani, Javaneh and Camarinha-Matos, Luis M.},
+  journaltitle               = {{TECHNOLOGICAL FORECASTING AND SOCIAL CHANGE}},
+  title                      = {{Approaches for resilience and antifragility in collaborative business ecosystems}},
+  doi                        = {{10.1016/j.techfore.2019.119846}},
+  issn                       = {{0040-1625}},
+  language                   = {{English}},
+  volume                     = {{151}},
+  abstract                   = {{Contemporary business ecosystems are continuously challenged by
+   unexpected disruptive events, which are increasing in their frequency
+   and effects. A critical question is why do some organizations collapse
+   in face of extreme events, while others not? On the other hand, current
+   engineering and socio-technical systems were designed to operate in
+   ``mostly stable{''} situations; sporadic instability and disturbances
+   are at best captured by exception handling mechanisms, focusing on
+   reliability and robustness. Recent and more ambitious design goals,
+   however, aim at building systems that are expected to cope with severe
+   disruptions, and survive or even thrive in a context of volatility and
+   uncertainty. This led to an increasing attention to the concepts of
+   resilience and antifragility. As such, this article introduces the
+   findings of a comprehensive literature survey aimed at shedding light on
+   emerging concepts and approaches to handle disruptions in business
+   ecosystems. Main contributions include a clarification of related
+   concepts, identification and classification of disruption sources and
+   drivers, and extensive lists of strategies and underlying capabilities
+   to cope with disruptions. Related perspectives and approaches developed
+   in multiple knowledge areas are also analysed and synthesized. Finally,
+   a collection of engineered systems implementing promising approaches to
+   increase resilience and antifragility are presented.}},
+  affiliation                = {{Camarinha-Matos, LM (Corresponding Author), NOVA Univ Lisbon, Fac Sci \& Technol, P-2829516 Monte De Caparica, Portugal. Ramezani, Javaneh; Camarinha-Matos, Luis M., NOVA Univ Lisbon, Fac Sci \& Technol, P-2829516 Monte De Caparica, Portugal. Ramezani, Javaneh; Camarinha-Matos, Luis M., NOVA Univ Lisbon, Ctr Technol \& Syst, P-2829516 Monte De Caparica, Portugal.}},
+  article-number             = {{119846}},
+  author-email               = {{cam@uninova.pt}},
+  comment                    = {AMS090 New Usable conceptual model (some order from robust to antifragile)},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{KG3CA}},
+  eissn                      = {{1873-5509}},
+  funding-acknowledgement    = {{Center of Technology and Systems (CTS); Portuguese Foundation for Science and Technology (FCT)Portuguese Foundation for Science and Technology {[}UID/EEA/00066/2019]; {[}POCI-01-0247-FEDER-033926]}},
+  funding-text               = {{This work was funded in part by the Center of Technology and Systems (CTS) and the Portuguese Foundation for Science and Technology (FCT) through the Strategic Program UID/EEA/00066/2019. We also thank partial contribution from the project POCI-01-0247-FEDER-033926 (Future Yammi).}},
+  groups                     = {Relevant},
+  journal-iso                = {{Technol. Forecast. Soc. Chang.}},
+  keywords                   = {{Business ecosystem; Collaboration; Disruptions; Resilience; Antifragility}},
+  keywords-plus              = {{SUPPLY CHAIN RISK; DISRUPTION RISK; LEAD TIME; MANAGEMENT; MITIGATION; STRATEGIES; DESIGN; FLEXIBILITY; SYSTEMS; DEMAND}},
+  location                   = {{STE 800, 230 PARK AVE, NEW YORK, NY 10169 USA}},
+  month                      = {{FEB}},
+  number-of-cited-references = {{109}},
+  orcid-numbers              = {{Ramezani, Javaneh/0000-0003-1414-186X Camarinha-Matos, Luis/0000-0003-0594-1961}},
+  publisher                  = {{ELSEVIER SCIENCE INC}},
+  relevance                  = {relevant},
+  research-areas             = {{Business \& Economics; Public Administration}},
+  researcherid-numbers       = {{Ramezani, Javaneh/I-6374-2018 Camarinha-Matos, Luis/D-5011-2009}},
+  times-cited                = {{21}},
+  type                       = {{Article}},
+  unique-id                  = {{WOS:000509818900009}},
+  usage-count-last-180-days  = {{14}},
+  usage-count-since-2013     = {{41}},
+  web-of-science-categories  = {{Business; Regional \& Urban Planning}},
+  web-of-science-index       = {{Social Science Citation Index (SSCI)}},
+  year                       = {{2020}},
+}
+
+@Article{Bruijn2020,
+  author                     = {de Bruijn, Harald and Groessler, Andreas and Videira, Nuno},
+  journaltitle               = {{SYSTEMS RESEARCH AND BEHAVIORAL SCIENCE}},
+  title                      = {{Antifragility as a design criterion for modelling dynamic systems}},
+  doi                        = {{10.1002/sres.2574}},
+  issn                       = {{1092-7026}},
+  language                   = {{English}},
+  number                     = {{1}},
+  pages                      = {{23-37}},
+  volume                     = {{37}},
+  abstract                   = {{Highly improbable events can have a substantial impact on complex
+   socio-economic systems and are frequently difficult to predict
+   beforehand but easy to explain afterwards. Antifragile systems can
+   withstand and benefit from this kind of outlier events, whereas merely
+   robust systems cannot in any case. Yet the aim to design robust systems
+   is almost as old as the system dynamics field itself. This research
+   therefore aims to investigate the extent to which an antifragile system
+   design criterion is more valuable than a robust one. By means of an
+   extensive literature review, a simulation model was constructed, which
+   is demonstrated to be antifragile. Comparing the antifragile and robust
+   versions of the model shows that the former-as theorized-yields more
+   favourable results in an environment with impactful outlier events.
+   Implementing antifragility in systems involves the difficult task of
+   changing policies (and, eventually, the mental models) of
+   decision-makers. Consequently, this research concludes that
+   antifragility should not and cannot always be attained; its feasibility
+   is to be assessed at the start of a system dynamics modelling project.}},
+  affiliation                = {{de Bruijn, H (Corresponding Author), Nijmegen Sch Management, Dept Business Adm, Thomas van Aquinostr 3, NL-6500 HK Nijmegen, Netherlands. de Bruijn, Harald, Nijmegen Sch Management, Dept Business Adm, Thomas van Aquinostr 3, NL-6500 HK Nijmegen, Netherlands. Groessler, Andreas, Univ Stuttgart, Fac Management \& Social Sci, Dept Operat Management, Stuttgart, Germany. Videira, Nuno, Univ Nova Lisboa, Fac Ciencias \& Tecnol, Dept Ciencias \& Engn Ambiente, CENSE Ctr Environm \& Sustainabil Res, Caparica, Portugal.}},
+  author-email               = {{harald-de-bruyn@live.nl}},
+  comment                    = {AMS091},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{KF8XP}},
+  eissn                      = {{1099-1743}},
+  groups                     = {Relevant},
+  journal-iso                = {{Syst. Res. Behav. Sci.}},
+  keywords                   = {{antifragility; black swans; system dynamics}},
+  keywords-plus              = {{DOMINANT POLARITY; BLACK SWANS; PERFORMANCE; RESILIENCE; MANAGEMENT}},
+  location                   = {{111 RIVER ST, HOBOKEN 07030-5774, NJ USA}},
+  month                      = {{JAN}},
+  number-of-cited-references = {{49}},
+  orcid-numbers              = {{Größler, Andreas/0000-0003-2226-7518 Videira, Nuno/0000-0002-4514-1996}},
+  publisher                  = {{WILEY}},
+  relevance                  = {relevant},
+  research-areas             = {{Business \& Economics; Social Sciences - Other Topics}},
+  researcherid-numbers       = {{Größler, Andreas/AAJ-6849-2021 }},
+  times-cited                = {{6}},
+  type                       = {{Article}},
+  unique-id                  = {{WOS:000509520300002}},
+  usage-count-last-180-days  = {{2}},
+  usage-count-since-2013     = {{16}},
+  web-of-science-categories  = {{Management; Social Sciences, Interdisciplinary}},
+  web-of-science-index       = {{Social Science Citation Index (SSCI)}},
+  year                       = {{2020}},
+}
+
+@Article{Dirzus2020,
+  author                     = {Dirzus, Dagmar},
+  journaltitle               = {{ATP MAGAZINE}},
+  title                      = {{We need more Anti-Fragility!}},
+  issn                       = {{2190-4111}},
+  language                   = {{German}},
+  number                     = {{6-7}},
+  pages                      = {{96}},
+  affiliation                = {{Dirzus, D (Corresponding Author), VDI VDE Gesell Mess \& Automatisierungstech, Dusseldorf, Germany. Dirzus, Dagmar, VDI VDE Gesell Mess \& Automatisierungstech, Dusseldorf, Germany.}},
+  comment                    = {Source unkown},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{NK9PQ}},
+  eissn                      = {{2364-3137}},
+  groups                     = {Not Relevant},
+  journal-iso                = {{ATP Mag.}},
+  location                   = {{ARNULFSTR 124, MUNCHEN, 80636, GERMANY}},
+  number-of-cited-references = {{0}},
+  publisher                  = {{DIV DEUTSCHER INDUSTRIEVERLAG GMBH}},
+  research-areas             = {{Automation \& Control Systems}},
+  times-cited                = {{0}},
+  type                       = {{Editorial Material}},
+  unique-id                  = {{WOS:000567060900021}},
+  usage-count-last-180-days  = {{0}},
+  usage-count-since-2013     = {{0}},
+  web-of-science-categories  = {{Automation \& Control Systems}},
+  web-of-science-index       = {{Emerging Sources Citation Index (ESCI)}},
+  year                       = {{2020}},
+}
+
+@InProceedings{Gallina2020,
+  author                     = {Gallina, Barbara},
+  booktitle                  = {{SYSTEMS, SOFTWARE AND SERVICES PROCESS IMPROVEMENT (EUROSPI 2020)}},
+  title                      = {{A Barbell Strategy-oriented Regulatory Framework and Compliance Management}},
+  doi                        = {{10.1007/978-3-030-56441-4\_52}},
+  editor                     = {{Yilmaz, M and Niemann, J and Clarke, P and Messnarz, R}},
+  isbn                       = {{978-3-030-56441-4; 978-3-030-56440-7}},
+  language                   = {{English}},
+  location                   = {{GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND}},
+  note                       = {{27th International Conference on Systems, Software and Services Process Improvement (EuroSPI), Dusseldorf, GERMANY, SEP 09-11, 2020}},
+  pages                      = {{696-705}},
+  publisher                  = {{SPRINGER INTERNATIONAL PUBLISHING AG}},
+  series                     = {{Communications in Computer and Information Science}},
+  volume                     = {{1251}},
+  abstract                   = {{As we are witnessing nowadays with self-driving vehicles and robots
+   performing collaborative tasks, and as it has been witnessed in the
+   past, a disruptive technological innovation may cause a regulatory
+   disruption. As a consequence, established regulatory frameworks need to
+   evolve and, in this evolution process, regulatory excellence is
+   paramount for guaranteeing appropriate risk taking, enabling innovators
+   to innovate while efficiently complying to proportionate regulatory
+   frameworks. In risk management theory, or better, in risk taking theory,
+   Taleb has proposed the Barbell strategy, characterised by maximal
+   certainty/low risk on one extreme of the barbell, and maximal
+   uncertainty on the other extreme, as a means for developing
+   anti-fragility, i.e., ability to gain from disorder. In this paper, we
+   propose our vision consisting of a Barbell strategy-oriented regulatory
+   framework and compliance management, where regulators and
+   manufacturers/innovators, both, adopt a Barbell strategy for reaching an
+   optimal solution in regulatory making, the former, and compliance
+   management, the latter. Finally, conclusion and perspectives for future
+   work are also drawn.}},
+  affiliation                = {{Gallina, B (Corresponding Author), Malardalen Univ, IDT, Box 883, S-72123 Vasteras, Sweden. Gallina, Barbara, Malardalen Univ, IDT, Box 883, S-72123 Vasteras, Sweden.}},
+  author-email               = {{barbara.gallina@mdh.se}},
+  comment                    = {AMS092 Some relevance on exra explaination of the barbell theory.},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{BS2HT}},
+  eissn                      = {{1865-0937}},
+  funding-acknowledgement    = {{Sweden's Knowledge Foundation}},
+  funding-text               = {{Partially funded by Sweden's Knowledge Foundation via the SACSys {[}31] project.}},
+  issn                       = {{1865-0929}},
+  keywords                   = {{Disruptive technological innovation; Regulatory framework; Compliance; Regulatory disruption; Barbell strategy}},
+  number-of-cited-references = {{36}},
+  orcid-numbers              = {{Gallina, Barbara/0000-0002-6952-1053}},
+  relevance                  = {relevant},
+  research-areas             = {{Computer Science}},
+  times-cited                = {{0}},
+  type                       = {{Proceedings Paper}},
+  unique-id                  = {{WOS:000701448600052}},
+  usage-count-last-180-days  = {{0}},
+  usage-count-since-2013     = {{0}},
+  web-of-science-categories  = {{Computer Science, Information Systems; Computer Science, Interdisciplinary Applications; Computer Science, Software Engineering}},
+  web-of-science-index       = {{Conference Proceedings Citation Index - Science (CPCI-S)}},
+  year                       = {{2020}},
+}
+
+@InProceedings{OReilly2020,
+  author                     = {O'Reilly, Barry M.},
+  booktitle                  = {{11TH INTERNATIONAL CONFERENCE ON AMBIENT SYSTEMS, NETWORKS AND TECHNOLOGIES (ANT) / THE 3RD INTERNATIONAL CONFERENCE ON EMERGING DATA AND INDUSTRY 4.0 (EDI40) / AFFILIATED WORKSHOPS}},
+  title                      = {{An Introduction to Residuality Theory: Software Design Heuristics for Complex Systems.}},
+  doi                        = {{10.1016/j.procs.2020.03.120}},
+  editor                     = {{Shakshuki, E and Yasar, A}},
+  language                   = {{English}},
+  location                   = {{SARA BURGERHARTSTRAAT 25, PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS}},
+  note                       = {{11th International Conference on Ambient Systems, Networks and Technologies (ANT) / 3rd International Conference on Emerging Data and Industry 4.0 (EDI), Warsaw, POLAND, APR 06-09, 2020}},
+  pages                      = {{875-880}},
+  publisher                  = {{ELSEVIER SCIENCE BV}},
+  series                     = {{Procedia Computer Science}},
+  volume                     = {{170}},
+  abstract                   = {{Residuality theory provides a basis for designing software systems with
+   resilient and antifragile behaviour through understanding sensitivity to
+   stress and the concept of residual behaviours. By considering systems as
+   a set of residues that exist in connection to stressors, we can more
+   easily understand the role of design decisions in the life cycle of
+   software systems and the unpredictable complex contexts they exist in.
+   Residuality theory provides an alternative to the vague methods by which
+   OOP, SOA, and microservice approaches arrive at system designs and most
+   importantly places non-functional properties as first class citizens of
+   design efforts. Residuality theory allows us to consider business,
+   software, and infrastructure architecture across many different
+   platforms and paradigms and allows us to describe architecture in the
+   same way regardless of perspective. It allows us to describe approaches
+   both for functional and non-functional requirements and for design,
+   delivery and operation of applications. Residuality Theory paves the way
+   for expressing architectures as mathematical structures which makes
+   approaches like Model Based Systems Engineering {[}1] possible. (C) 2020
+   The Authors. Published by Elsevier B.V.}},
+  affiliation                = {{O'Reilly, BM (Corresponding Author), Black Tulip Technol, Djurhamn, Sweden. O'Reilly, BM (Corresponding Author), Open Univ, Milton Keynes, Bucks, England. O'Reilly, Barry M., Black Tulip Technol, Djurhamn, Sweden. O'Reilly, Barry M., Open Univ, Milton Keynes, Bucks, England.}},
+  author-email               = {{barry@blacktulip.se}},
+  comment                    = {Double},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{BQ2ZA}},
+  groups                     = {Not Relevant},
+  issn                       = {{1877-0509}},
+  keywords                   = {{antifragility; residuality; resilience; chaos; engineering}},
+  number-of-cited-references = {{14}},
+  oa                         = {{gold}},
+  research-areas             = {{Computer Science}},
+  times-cited                = {{2}},
+  type                       = {{Proceedings Paper}},
+  unique-id                  = {{WOS:000582714500117}},
+  usage-count-last-180-days  = {{0}},
+  usage-count-since-2013     = {{1}},
+  web-of-science-categories  = {{Computer Science, Artificial Intelligence; Computer Science, Theory \& Methods}},
+  web-of-science-index       = {{Conference Proceedings Citation Index - Science (CPCI-S)}},
+  year                       = {{2020}},
+}
+
+@InProceedings{Timashev2020,
+  author                     = {Timashev, S. A.},
+  booktitle                  = {{INTERNATIONAL CONFERENCE SAFETY PROBLEMS OF CIVIL ENGINEERING CRITICAL INFRASTRUCTURES}},
+  title                      = {{Black-Swan Type Catastrophes and Antifragility/Supra-resilience of Urban Socio-Technical Infrastructures}},
+  doi                        = {{10.1088/1757-899X/972/1/012001}},
+  language                   = {{English}},
+  location                   = {{DIRAC HOUSE, TEMPLE BACK, BRISTOL BS1 6BE, ENGLAND}},
+  note                       = {{5th International Conference Safety Problems of Civil Engineering Critical Infrastructures (SPCECI), Ural Fed Univ, Ekaterinburg, RUSSIA, MAY 21-22, 2019}},
+  organization               = {{Russian Acad Sci, Ural Branch; Russian Acad Sci, Ural Branch, Sci \& Engn Ctr Reliabil \& Safety Large Syst \& Machines; Russian Acad Architecture \& Construct Sci, Ural Territorial Branch; S Ural State Univ; European Civil Engn Educ \& Training}},
+  publisher                  = {{IOP PUBLISHING LTD}},
+  series                     = {{IOP Conference Series-Materials Science and Engineering}},
+  volume                     = {{972}},
+  abstract                   = {{This paper may be one of the first attempts dealing with the problem of
+   creating, providing and maintaining antifragility of systems of
+   interdependent urban critical infrastructures (CI) in the wake of
+   black-swan type technological, ecological, economic or social
+   catastrophes occurring in a municipality. A synonym is offered to
+   describe antifragility from a positive psychology perspective,
+   formulating the problem as the supraresilience problem. A brief
+   description is given of the developed innovative approach for creating a
+   supraresilient city/region using black-swan catastrophe and the
+   antifragility concepts. Resilience metrics are formulated as well as
+   methods of assessing damage, interdependence of infrastructures and
+   convergent technologies and sciences needed for practical regional
+   resilience and risk management of the system of systems (SoS) of
+   interdependent urban critical infrastructures).}},
+  affiliation                = {{Timashev, SA (Corresponding Author), Russian Acad Sci, Sci \& Engn Ctr Reliabil \& Safety Large Syst \& Mac, Ural Branch, 54-A,Studencheskaya, Ekaterinburg 620049, Russia. Timashev, SA (Corresponding Author), Ural Fed Univ, 19 Mira, Ekaterinburg 620002, Russia. Timashev, SA (Corresponding Author), Old Dominion Univ, Norfolk, VA 23529 USA. Timashev, S. A., Russian Acad Sci, Sci \& Engn Ctr Reliabil \& Safety Large Syst \& Mac, Ural Branch, 54-A,Studencheskaya, Ekaterinburg 620049, Russia. Timashev, S. A., Ural Fed Univ, 19 Mira, Ekaterinburg 620002, Russia. Timashev, S. A., Old Dominion Univ, Norfolk, VA 23529 USA.}},
+  article-number             = {{012001}},
+  author-email               = {{TimashevS@gmail.com}},
+  book-group-author          = {{IOP}},
+  comment                    = {AMS093 Has some nice examples on antifragile (levis jeans and so) but does not add anything new to the BoK that is relevant for the research.},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{BR3OD}},
+  issn                       = {{1757-8981}},
+  number-of-cited-references = {{38}},
+  oa                         = {{Green Submitted, Green Published, gold}},
+  research-areas             = {{Engineering}},
+  times-cited                = {{0}},
+  type                       = {{Proceedings Paper}},
+  unique-id                  = {{WOS:000648525900001}},
+  usage-count-last-180-days  = {{2}},
+  usage-count-since-2013     = {{3}},
+  web-of-science-categories  = {{Engineering, Multidisciplinary; Engineering, Civil}},
+  web-of-science-index       = {{Conference Proceedings Citation Index - Science (CPCI-S)}},
+  year                       = {{2020}},
+}
+
+@Article{Kasianova2019,
+  author                     = {Kasianova, Nataliia and Tarasova, Elena and Kravchuk, Nataliia},
+  journaltitle               = {{INDEPENDENT JOURNAL OF MANAGEMENT \& PRODUCTION}},
+  title                      = {{ENTERPRISE DEVELOPMENT MANAGEMENT THROUGH MANAGED CHAOS}},
+  doi                        = {{10.14807/ijmp.v10i5.900}},
+  issn                       = {{2236-269X}},
+  language                   = {{English}},
+  number                     = {{5}},
+  pages                      = {{1626-1644}},
+  volume                     = {{10}},
+  abstract                   = {{The purpose of the study is to substantiate the feasibility of using the
+   theory of chaos in the process of managing the industrial enterprises.
+   One of the tools for managing chaos is proposed to be chaos engineering
+   - a method of conducting planned experiments that give an idea of how
+   the system can behave as a result of disturbances. The introduction of
+   chaos engineering will allow for prediction of possible perturbations
+   and prepare the system for a new attractor at an optimal time with
+   minimal losses. The chaos management model of the economic system, which
+   allows either a radical change in the status of the enterprise, its
+   ability to influence demand and supply while maintaining the
+   subjectivity of the development, or to promote antifragility of the
+   enterprise, allows strengthening the stability of the economic system.}},
+  affiliation                = {{Kasianova, N (Corresponding Author), Natl Aviat Univ, Kiev, Ukraine. Kasianova, Nataliia; Kravchuk, Nataliia, Natl Aviat Univ, Kiev, Ukraine. Tarasova, Elena, Altai State Univ, Barnaul, Russia.}},
+  author-email               = {{kasianova\_n@nau.edu.ua tarasovaea@sch2009.net 0509133222@ukr.net}},
+  comment                    = {AMS094 links chaos engineering to antifragile. Is relevant but nothing new.},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{JB9ET}},
+  groups                     = {Relevant},
+  journal-iso                = {{Indep. J. Manag. Prod.}},
+  keywords                   = {{microeconomic system; antifragility; chaos management model}},
+  location                   = {{RUA PEDRO VICENTE 625, CANINDE, SAO PAULO, 01109-010, BRAZIL}},
+  month                      = {{SEP-OCT}},
+  number-of-cited-references = {{16}},
+  oa                         = {{Green Published, Green Submitted, gold}},
+  orcid-numbers              = {{Kravchuk, Nataliia/0000-0001-8742-695X Kasianova, Nataliia V/0000-0001-7729-2011}},
+  publisher                  = {{INST FEDERAL EDUCACAO, CIENCIA \& TECNOLOGIA SAO PAULO}},
+  relevance                  = {relevant},
+  research-areas             = {{Business \& Economics}},
+  researcherid-numbers       = {{Kravchuk, Nataliia/T-7628-2018 Kasianova, Nataliia V/S-5635-2018}},
+  times-cited                = {{3}},
+  type                       = {{Article}},
+  unique-id                  = {{WOS:000488884900012}},
+  usage-count-last-180-days  = {{4}},
+  usage-count-since-2013     = {{6}},
+  web-of-science-categories  = {{Management}},
+  web-of-science-index       = {{Emerging Sources Citation Index (ESCI)}},
+  year                       = {{2019}},
+}
+
+@InProceedings{Chhetri2019,
+  author                     = {Chhetri, Mohan Baruwal and Uzunov, V, Anton and Vo, Quoc Bao and Nepal, Surya and Kowalczyk, Ryszard},
+  booktitle                  = {{2019 IEEE INTERNATIONAL CONFERENCE ON AUTONOMIC COMPUTING (ICAC 2019)}},
+  title                      = {{Self-Improving Autonomic Systems for Antifragile Cyber Defence: Challenges and Opportunities}},
+  doi                        = {{10.1109/ICAC.2019.00013}},
+  isbn                       = {{978-1-7281-2411-7}},
+  language                   = {{English}},
+  location                   = {{345 E 47TH ST, NEW YORK, NY 10017 USA}},
+  note                       = {{16th IEEE International Conference on Autonomic Computing (ICAC), Umea, SWEDEN, JUN 16-20, 2019}},
+  organization               = {{IEEE; IEEE Comp Soc; Ericsson Res; Huawei; Tieto; Google; Raytheon; CodeMill}},
+  pages                      = {{18-23}},
+  publisher                  = {{IEEE}},
+  abstract                   = {{Antifragile systems enhance their capabilities and become stronger when
+   exposed to adverse conditions, stresses or attacks, making antifragility
+   a desirable property for cyber defence systems that operate in contested
+   military environments. Self-improvement in autonomic systems refers to
+   the improvement of their self-{*} capabilities, so that they are able to
+   (a) better handle previously known (anticipated) situations, and (b)
+   deal with previously unknown (unanticipated) situations. In this
+   position paper, we present a vision of using self-improvement through
+   learning to achieve antifragility in autonomic cyber defence systems. We
+   first enumerate some of the major challenges associated with realizing
+   distributed self-improvement. We then propose a reference model for
+   middleware frameworks for self-improving autonomic systems and a set of
+   desirable features of such frameworks.}},
+  affiliation                = {{Chhetri, MB (Corresponding Author), Swinburne Univ Technol, Fac Sci Engn \& Technol, Melbourne, Vic 3122, Australia. Chhetri, Mohan Baruwal; Vo, Quoc Bao; Kowalczyk, Ryszard, Swinburne Univ Technol, Fac Sci Engn \& Technol, Melbourne, Vic 3122, Australia. Kowalczyk, Ryszard, Polish Acad Sci, Syst Res Inst, Warsaw, Poland. Uzunov, Anton, V, Def Sci \& Technol Grp, Edinburgh, SA 5111, Australia. Nepal, Surya, Data61, Marsfield, NSW 2122, Australia.}},
+  book-group-author          = {{IEEE}},
+  comment                    = {AMS095 Too fuzzy},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{BQ4FX}},
+  funding-acknowledgement    = {{Defence Science and Technology (DST) Group, Data61; Swinburne University of Technology; Department of Defence Next Generation Technology initiative}},
+  funding-text               = {{This research is supported by a Collaborative Research Project on ``Autonomic Computing for Resilient Cyber Operations in Contested Environments{''} between the Defence Science and Technology (DST) Group, Data61 and Swinburne University of Technology, funded by the Department of Defence Next Generation Technology initiative. The authors would like to thank Michael Docking (DST Group) and Seyit Camtepe (CSIRO Data61) for their feedback on this paper.}},
+  groups                     = {Not Relevant},
+  keywords                   = {{antifragility; autonomic systems; cyber defence; self-improvement; learning}},
+  keywords-plus              = {{MULTIAGENT; AGENTS; MODEL}},
+  number-of-cited-references = {{53}},
+  orcid-numbers              = {{Kowalczyk, Ryszard/0000-0003-0937-4028 Nepal, Surya/0000-0002-3289-6599}},
+  research-areas             = {{Computer Science}},
+  researcherid-numbers       = {{Chhetri, Mohan Baruwal/AAV-5462-2021 Kowalczyk, Ryszard/H-4391-2011 Nepal, Surya/B-7523-2011}},
+  times-cited                = {{1}},
+  type                       = {{Proceedings Paper}},
+  unique-id                  = {{WOS:000589508500003}},
+  usage-count-last-180-days  = {{0}},
+  usage-count-since-2013     = {{0}},
+  web-of-science-categories  = {{Computer Science, Theory \& Methods}},
+  web-of-science-index       = {{Conference Proceedings Citation Index - Science (CPCI-S)}},
+  year                       = {{2019}},
+}
+
+@InProceedings{OReilly2019,
+  author                     = {O'Reilly, Barry},
+  booktitle                  = {{10TH INTERNATIONAL CONFERENCE ON AMBIENT SYSTEMS, NETWORKS AND TECHNOLOGIES (ANT 2019) / THE 2ND INTERNATIONAL CONFERENCE ON EMERGING DATA AND INDUSTRY 4.0 (EDI40 2019) / AFFILIATED WORKSHOPS}},
+  title                      = {{No More Snake Oil: Architecting Agility through Antifragility}},
+  doi                        = {{10.1016/j.procs.2019.04.122}},
+  editor                     = {{Shakshuki, E}},
+  language                   = {{English}},
+  location                   = {{Radarweg 29, PO Box 211, AMSTERDAM, NETHERLANDS}},
+  note                       = {{10th International Conference on Ambient Systems, Networks and Technologies (ANT) / 2nd International Conference on Emerging Data and Industry 4.0 (EDI40), Leuven, BELGIUM, APR 29-MAY 02, 2019}},
+  pages                      = {{884-890}},
+  publisher                  = {{ELSEVIER}},
+  series                     = {{Procedia Computer Science}},
+  volume                     = {{151}},
+  abstract                   = {{The confusion surrounding the role of architecture when aiming for
+   Agility isn't simply a labored talking point it's part of the reason
+   Agile initiatives fail, and architecture teams are losing influence. In
+   a recent survey conducted by IASA Global of 260 organizations, greater
+   than 75\% were implementing some form of Agile practice, 50\% of the 260
+   were implementing agile at scale. Of those who responded, less than 50\%
+   have integrated architecture into their agile process. As it stands, it
+   appears agile \& architecture are struggling to find a fit. This paper
+   considers the possible impacts of a third way - Agility through
+   Antifragility. Rather than aiming to control, or to remove control, we
+   seek to build systems, both technical and business, that aim to be
+   Antifragile to change. This allows the production of business and
+   technical architectures that actually enable Agility through design
+   rather than process or `mindset'. Taking ideas from Systems Engineering,
+   and Complexity Science, and data from IASA's 2018 Architecture Survey,
+   we explore how the inherent interconnectedness of architecture and
+   Agility can be leveraged to make the management of complexity something
+   all organizations can do. (C) 2019 The Authors. Published by Elsevier
+   B.V. This is an open access article under the CC BY-NC-ND
+   (http://creativecommons.org/licenses/by-nc-nd/4.0/) Peer-review under
+   responsibility of the Conference Program Chairs.}},
+  affiliation                = {{O'Reilly, B (Corresponding Author), Black Tulip Technol, S-3973 Djurhamn, Sweden. O'Reilly, Barry, Black Tulip Technol, S-3973 Djurhamn, Sweden.}},
+  author-email               = {{barry@blacktulip.se}},
+  comment                    = {Double},
+  da                         = {{2022-02-14}},
+  doc-delivery-number        = {{BQ1QR}},
+  groups                     = {Not Relevant},
+  issn                       = {{1877-0509}},
+  keywords                   = {{Antifragility; Design; FMEA; Decomposition}},
+  number-of-cited-references = {{15}},
+  oa                         = {{gold}},
+  research-areas             = {{Computer Science}},
+  times-cited                = {{1}},
+  type                       = {{Proceedings Paper}},
+  unique-id                  = {{WOS:000577067400117}},
+  usage-count-last-180-days  = {{1}},
+  usage-count-since-2013     = {{1}},
+  web-of-science-categories  = {{Computer Science, Interdisciplinary Applications; Computer Science, Theory \& Methods}},
+  web-of-science-index       = {{Conference Proceedings Citation Index - Science (CPCI-S)}},
+  year                       = {{2019}},
+}
+
+@InProceedings{Ramezani2019,
+  author                     = {Ramezani, Javaneh and Camarinha-Matos, Luis M.},
+  booktitle                  = {{7TH INTERNATIONAL CONFERENCE ON INFORMATION TECHNOLOGY AND QUANTITATIVE MANAGEMENT (ITQM 2019): INFORMATION TECHNOLOGY AND QUANTITATIVE MANAGEMENT BASED ON ARTIFICIAL INTELLIGENCE}},
+  title                      = {{A collaborative approach to resilient and antifragile business ecosystems}},
+  doi                        = {{10.1016/j.procs.2019.12.029}},
+  editor                     = {{HerreraViedma, E and Shi, Y and Berg, D and Tien, J and Cabrerizo, FJ and Li, J}},
+  language                   = {{English}},
+  location                   = {{SARA BURGERHARTSTRAAT 25, PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS}},
+  note                       = {{7th International Conference on Information Technology and Quantitative Management (ITQM) - Information Technology and Quantitative Management Based on Artificial Intelligence, Granada, SPAIN, NOV 03-06, 2019}},
+  organization               = {{Chinese Acad Sci; Univ Granada; LifeWatch ERIC; Univ Nebraska Omaha; Chinese Acad Sci, Res Ctr Fictitious Econ \& Data Sci; Chinese Acad Sci, Key Lab Big Data Mining \& Knowledge Management; Univ Chinese Acad Sci, Sch Econ \& Management; Chinese Acad Sci, Inst Sci \& Dev; SW Minzu Univ; Chinese Acad Management, Business Intelligence Soc; Tainfu Int Inst Big Data Strategy \& Technol; Int Acad Informat Technol \& Quantitat Management}},
+  pages                      = {{604-613}},
+  publisher                  = {{ELSEVIER SCIENCE BV}},
+  series                     = {{Procedia Computer Science}},
+  volume                     = {{162}},
+  abstract                   = {{Turbulence and unexpected disruptive events are showing with an
+   increasing frequency and growing impact, which represent major
+   challenges for sustainability of businesses. Therefore, finding how
+   organizations can strive and even improve or gain benefits in disruptive
+   environment scenarios became a relevant research area, for which
+   resilience and antifragility represent two significant approaches. This
+   paper argues that collaboration in business ecosystems is a promising
+   approach to cope with disruptions. A brief overview of existing
+   strategies as potential building blocks for resilience and antifragility
+   is presented. Then, in order to study the strategies that can better
+   apply, a modelling and simulation framework based on multi-agents and
+   system dynamics is introduced, and the main modelling issues are
+   discussed considering the context of Industry 4.0. (C) 2020 The Authors.
+   Published by Elsevier B.V.}},
+  affiliation                = {{Ramezani, J (Corresponding Author), NOVA Univ Lisbon, Fac Sci \& Technol, Campus Caparica, P-2829516 Monte De Caparica, Portugal. Ramezani, Javaneh, NOVA Univ Lisbon, Fac Sci \& Technol, Campus Caparica, P-2829516 Monte De Caparica, Portugal. NOVA Univ Lisbon, UNINOVA CTS, Campus Caparica, P-2829516 Monte De Caparica, Portugal.}},
+  author-email               = {{ramezanijavaneh@gmail.com}},
+ 
