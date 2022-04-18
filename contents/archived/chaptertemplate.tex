@@ -1,0 +1,86 @@
+\chapter{Chapter Template}
+\label{ch:chapter template}
+\lipsum[1]
+
+\section{section title}
+\label{sec:introtitle}
+\lipsum[1]
+\subsection{subsection title}
+\label{subsec:introtitle}
+\lipsum[1]
+\subsubsection{subsubsection title}
+\label{subsubsec:introtitle}
+\lipsum[1]
+\paragraph{paragraph title}
+\label{par:introtitle}
+\lipsum[1]
+\section{Building Blocks}
+\subsection{table}
+\begin{table}[!h]
+	\begin{center}
+		\begin{tabular}{@{}ccccc@{}}
+			\toprule
+			What & When & Who & Why & How \\ \midrule
+			X    & 1    & 1   & 2   & 3   \\
+			Y    & 2    & 45  & 7   & 9   \\
+			Z    & 0    & 0   & 1   & 7   \\ \bottomrule
+		\end{tabular}
+		\caption{Introduction Table}
+		\label{tab:introduction}
+	\end{center}
+\end{table}
+\subsection{Picture}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=6cm]{images/placeholder-image}
+	\caption[Placeholder]{Placeholder}
+	\label{fig:placeholder-image}
+\end{figure}
+
+
+\subsection{Glossary}
+
+\begin{verbatim*}
+	\gls{antifragile} is not that \gls{fragile}\\
+	\Gls{antifragile} is not that \Gls{fragile}\\
+	\gls{fragile} is not that \gls{antifragile}\\
+	\Gls{fragile} is not that \Gls{antifragile}\\
+\end{verbatim*}
+
+Gives:\\
+\gls{antifragile} is not that \gls{fragile}\\
+\Gls{antifragile} is not that \Gls{fragile}\\
+\gls{fragile} is not that \gls{antifragile}\\
+\Gls{fragile} is not that \Gls{antifragile}\\
+
+\subsection{Abbreviation}
+
+\begin{verbatim*}
+\acrfull{vuca}\\
+\acrlong{vuca}\\
+\acrshort{vuca}\\
+\end{verbatim*}
+
+Gives:\\
+\acrfull{vuca}\\
+\acrlong{vuca}\\
+\acrshort{vuca}\\
+
+\subsection{Citing}
+\begin{verbatim*}
+	\parencite{Bliek2017}
+	\parencite[p. 20]{Bliek2017}
+	\citeyear{Bliek2017}
+	\citeauthor{Bliek2017}
+	\parencite*{Bliek2017}
+	\textcite{Bliek2017}
+	\parencite{Doe2100,Bliek2017}
+\end{verbatim*}
+Gives:\\
+\parencite{Bliek2017}\\
+\parencite[p. 20]{Bliek2017}\\
+\citeyear{Bliek2017}\\
+\citeauthor{Bliek2017}\\
+\parencite*{Bliek2017}\\
+\textcite{Bliek2017}\\
+\parencite{Doe2100,Bliek2017}
