@@ -68,8 +68,7 @@ After the interviews \acrfull{qda} took place. For \acrshort{qda}, the transcrip
 	\caption{Interview results Attenuate variety}
 	\label{fig:interviewattenuatevariety}
 \end{figure}
-Why \textit{\gls{topdowncc}} and \textit{\gls{micromanagement}} scored highly is because the governments in the \gls{ps} have a severe risk-avoiding attitude. Everything must be predefined and planned. There must be accountability for how public money is spent. All missteps are magnified. There is a quick result in crises, but with possible consequences later on because of \acrfull{bit} audits or \glspl{parliamentaryinquiry}. The reflex on \gls{uncertainty} of the \gls{ps} is that the \gls{ps} gets very insecure from \gls{uncertainty}. The \gls{ps} does not know how to deal with \gls{uncertainty}. The common reflex is to push the \gls{uncertainty} back to certainty, so it is under
-control again. E.g. a missing law with the introduction of electric steps. It is not a bike, not a motorcycle or a car. The electric step did not fit into the current laws and regulations. The result was that the policymakers did not approve it and did not even tolerate it until law-making finished. \Gls{modularity} and \gls{looselycoupled} both scored a bit because the \gls{ps} consists out of a lot of subsystems. Every subsystem has a clear goal and a reason to exist. Communication between subsystems are going through standardised interfaces and are predictable.
+Why \textit{\gls{topdowncc}} and \textit{\gls{micromanagement}} scored highly is because the governments in the \gls{ps} have a severe risk-avoiding attitude. Everything must be predefined and planned. There must be accountability for how public money is spent. All missteps are magnified. There is a quick result in crises, but with possible consequences later on because of \acrfull{bit} audits or \glspl{parliamentaryinquiry}. The reflex on \gls{uncertainty} of the \gls{ps} is that the \gls{ps} gets very insecure from \gls{uncertainty}. The \gls{ps} does not know how to deal with \gls{uncertainty}. The common reflex is to push the \gls{uncertainty} back to certainty, so it is under control again. E.g. a missing law with the introduction of electric steps. It is not a bike, not a motorcycle or a car. The electric step did not fit into the current laws and regulations. The result was that the policymakers did not approve it and did not even tolerate it until law-making finished. \Gls{modularity} and \gls{looselycoupled} both scored a bit because the \gls{ps} consists out of a lot of subsystems. Every subsystem has a clear goal and a reason to exist. Communication between subsystems are going through standardised interfaces and are predictable.
 \subsection{Interview results on Amplified variety}
 \label{sub:interviewresultsaplified}
 \begin{figure}[H]
@@ -89,6 +88,9 @@ control again. E.g. a missing law with the introduction of electric steps. It is
 	\caption{Interview results Amplified variety}
 	\label{fig:interviewamplifiedvariety}
 \end{figure}
+
+No optionality and no-monotonicity
+
 
 One interviewee stated that the \gls{ps} should be in a permanent crisis situation to get things done.
 
@@ -161,7 +163,144 @@ What we have to do in the public sector depends on the political decision making
 	\label{fig:interviewresultsfindings}
 \end{figure}
 
-\section{Analysis of interviews}
+\section{Qualitative Data Analysis}
+\label{sec:dataprep}
+
+\subsection{Merging similar attributes}
+\label{sub:merginglabels}
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{p{.05\textwidth}p{.5\textwidth}p{.45\textwidth}}
+			\toprule %
+			\textbf{Step} & \textbf{Description} & \textbf{Rationale} \\%
+			\midrule %
+			1	  & Create, positive and negative main categories of Engineering, Systems, CAS, \gls{antifragile}, and Learning organisation. & Need extra categories for merging overarching subjects. \\%
+			2     & Merge \gls{agility} into CAS & How \gls{agility} is interpreted is the same as CAS \\%
+			3     & Merge tinkering into Learning Organisation & How tinkering is interpreted it is the same as Learning Organisation. \\%
+			4     & Merge \gls{robust} and \gls{resilient} into Engineering Resilience & How \gls{robust} and \gls{resilient} is interpreted by interviewees is the same as Engineering Resilience. \\%
+			5     & Merge Governance into Engineering Resilience & How Governance is interpreted is the same as \gls{topdowncc} and \gls{micromanagement}. \\%
+			6     & Merge Shortage on IT Knowledge into no \gls{resourcestoinvest} & Shortage on IT Knowledge can be interpreted as a resource that is not there \\%
+			7     & Merge Applying Best practices into \gls{nonmonotonicity} & Applying Best practices is learning from the past. \\%
+			8     & Merge Development of Knowledge into Learning Organisation & Development of Knowledge within an organisation can be seen as the learning capability of an organisation. \\%
+			9     & Merge Blaming Culture into No Safe Environment & No Safe Environment is a result of a Blaming Culture. \\%
+			10    & Merge Limited \acrshort{ea} into \gls{enterpriseitarchitecting} & Limited \acrshort{ea} is interpreted as the school of thought \gls{enterpriseitarchitecting} \\%
+			11    & Merge conservative into Risk Avoidance & Risk Avoidance is a result of conservative \\%
+			12	  & Ignored Social Responsibility and Risk Avoidance as \glspl{attribute} as possible success factors & Social Responsibility and Risk Avoidance are attributes of the \gls{ps} and are less relevant as an attribute for \gls{antifragile} and \acrshort{ea}. \\%
+			\bottomrule %
+		\end{tabular}%
+	}%
+	\caption{Data preparation - Merging similar labels}
+	\label{tab:prepmergingsimilarlabels}%
+\end{table}%
+
+\subsection{Normalise frequency of attributes}
+\label{sub:normalisefrequency}
+To remove (emotional) bias of interviewees the frequency is normalised by only counting the occurrence of an attribute once per question per interview.
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{p{.05\textwidth}p{.5\textwidth}p{.45\textwidth}}
+			\toprule %
+			\textbf{Step} & \textbf{Description} & \textbf{Rationale} \\%
+			\midrule %
+			1		&	Count the presence of an \gls{attribute} only once per question per interview. & Removing (emotional) bias. With seven main questions the score of an \gls{attribute} can have a maximum of seven per interview. With four conducted interviews the maximum score of an \gls{attribute} is twenty-eight. \\%
+			\bottomrule %
+		\end{tabular}%
+	}%
+	\caption[Data preparation - Normalise frequency of attributes]{Data preparation - Normalise frequency of attributes}
+	\label{tab:normalisefrequency}%
+\end{table}%
+
+\subsection{Normalise score of attributes}
+\label{sub:normalisescore}
+
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{p{.05\textwidth}p{.5\textwidth}p{.45\textwidth}}
+			\toprule %
+			\textbf{Step} & \textbf{Description} & \textbf{Rationale} \\%
+			\midrule %
+			1		&	Add for every lonely negative a 0 positive & Looking for \glspl{attribute} that can be a success factor after normalisation. \\%
+			2		&	\Gls{attribute} score is Positive value - Negative value & Bringing the values back to the found \glspl{attribute}. \\%
+			3		&	Split up between literature found, \acrshort{ea} and new findings & Categorise. For the literature found there are 2 corners of the triangle. \acrshort{ea} is a different subject than antifragile. The newly found do not have a data point in the literature study of the triangulation. \\%
+			\bottomrule %
+		\end{tabular}%
+	}%
+	\caption[Data preparation - Normalise score of attributes]{Data preparation - Normalise score of attributes}
+	\label{tab:prepnormalise}%
+\end{table}%
+
+\subsection{Filter attributes on threshold 75\% of Cases}
+\label{sub:filteronthresholdcases}
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{p{.05\textwidth}p{.5\textwidth}p{.45\textwidth}}
+		\toprule %
+		\textbf{Step} & \textbf{Description} & \textbf{Rationale} \\%
+		\midrule %
+		1     & Select labels where \% case is 75\% or more & When three interviewees mentioned the attribute it could be a label of significance (Triangulation) \\%
+		\bottomrule
+	\end{tabular}%
+	}%
+	\caption{Data preparation - Filter attributes on threshold 75\% of Cases}
+	\label{tab:prepselectcases}%
+\end{table}%
+
+\section{Results of Qualitative Data Analysis}
+
+\subsection{Results of QDA Attenuate and Amplified variety}
+\label{sub:resultsqdavariety}
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[H]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{images/qdaattenuate}
+		\caption{QDA Attenuate variety}
+		\label{fig:qdaattenuate}
+	\end{subfigure}%
+\hfill
+	\begin{subfigure}[H]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{images/qdaamplify}
+		\caption{QDA Amplified variety}
+		\label{fig:qdaamplified}
+	\end{subfigure}
+	\caption{Results of QDA Attenuate and Amplified variety}
+	\label{fig:resultsofqdavariety}
+\end{figure}
+
+\subsection{Results of QDA Learning organisation and EA school of thought}
+\label{sub:resultsqdalearningandea}
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[H]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{images/qdalearningorganisation}
+		\caption{QDA Learning organisation}
+		\label{fig:qdalearning}
+	\end{subfigure}%
+\hfill
+	\begin{subfigure}[H]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{images/qdaeaschool}
+		\caption{QDA EA school of thought}
+		\label{fig:qdaea}
+	\end{subfigure}
+	\caption{Results of QDA Learning organisation and EA school of thought}
+	\label{fig:resultsofqda}
+\end{figure}
+
+\subsection{Results of QDA of new possible attributes}
+\label{sub:resultsqdanewaatributes}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.475\textwidth]{images/qdanewfindings}
+	\caption[QDA new attributes]{QDA new attributes}
+	\label{fig:qdanewfindings}
+\end{figure}
 
 
 \subsection{Identified attributes as possible success factors}
