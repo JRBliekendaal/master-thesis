@@ -39,9 +39,35 @@
 \providecommand\phantomsection{}
 
 % Referemces
-\usepackage[backend=biber,style=apa]{biblatex}
+\usepackage[backend=biber,sorting=nyt,style=apa]{biblatex}
 \addbibresource{bibliography.bib}
 \usepackage{csquotes}
+\usepackage{citeall}
+
+% option 1 with useprefix=false
+% https://latex.org/forum/viewtopic.php?t=23146
+\makeatletter
+\AtBeginDocument{\toggletrue{blx@useprefix}}
+\AtBeginBibliography{\togglefalse{blx@useprefix}}
+\makeatother
+
+% Option 2 with useprefix=on
+%\DeclareSortingNamekeyTemplate{
+%	\keypart{
+%		\namepart{family}
+%	}
+%	\keypart{
+%		\namepart{prefix}
+%	}
+%	\keypart{
+%		\namepart{given}
+%	}
+%	\keypart{
+%		\namepart{suffix}
+%	}
+%}%
+
+%\renewbibmacro*{begentry}{\midsentence}
 
 % Commands
 \newcommand{\needsref}{\textcolor{red}{\textbf{(NEEDS REF)}}}
@@ -121,6 +147,7 @@
 		\include{contents/appendix_interviewfindings}
 		\include{contents/appendix_datapreparationforanalysis}
 		\include{contents/appendix_validationfindings}
+		%\include{contexts/appendix_allliterature}
 		\include{contents/appendix_researchlog}
 	\end{appendices}
 
