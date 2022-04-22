@@ -17,17 +17,16 @@
 \usepackage{multirow}
 \usepackage{booktabs}
 \usepackage{enumitem}
-\usepackage[toc,page]{appendix}
+\usepackage[titletoc]{appendix}
 \usepackage{ccicons} % The Creative Commons Icons
 \usepackage{perpage} %the perpage package
 \usepackage{float}
 \usepackage{amsmath}
 \usepackage{amsfonts} 
-\usepackage[capitalise,nameinlink,noabbrev]{cleveref}
+\usepackage[nameinlink,noabbrev]{cleveref}
 \MakePerPage{footnote} %the perpage package command
 
 % Add remark without numbering for writing notes
-
 \usepackage{amsthm}
 \theoremstyle{remark}
 \newtheorem*{remark}{\textcolor{red}{\textbf{Remark}}}
@@ -39,10 +38,11 @@
 \providecommand\phantomsection{}
 
 % Referemces
-\usepackage[backend=biber,sorting=nyt,style=apa]{biblatex}
+\usepackage[backend=biber,doi=true,isbn=true,url=true,sorting=nyt,style=apa]{biblatex}
+\DeclareLanguageMapping{british}{british-apa}
 \addbibresource{bibliography.bib}
 \usepackage{csquotes}
-\usepackage{citeall}
+%\usepackage{citeall}
 
 % option 1 with useprefix=false
 % https://latex.org/forum/viewtopic.php?t=23146
@@ -132,23 +132,23 @@
 	\listoftables									%	Add the list of Tables
 	\printglossary[title=Glossary of Terms] 		% Add Glossary of Terms
 	\printglossary[type=\acronymtype,title=Abbreviations] % Add Abbreviations
-	
+
 	\begin{appendices}	% Add Appendices
-%		\include{contents/appendix_motivation}
+	%	\include{contents/appendix_motivation}
 		\include{contents/appendix_easchools} % Add EA Schools of thought of Lapalme details
 		\include{contents/appendix_easchoolsresearchers} % Add writers per school of thought of Lapalme
-%		\include{contents/appendix_laws}
+	%	\include{contents/appendix_laws}
 		\include{contents/appendix_conceptmapattributes}
 		\include{contents/appendix_literaturecatchup}
-%		\include{contents/appendix_interviewees}
-%		\include{contents/appendix_delphigroup}
-		%\include{contents/appendix_literatureselection}
+	%	\include{contents/appendix_interviewees}
+	%	\include{contents/appendix_delphigroup}
+	%	\include{contents/appendix_literatureselection}
 		\include{contents/appendix_interviewsummaries}
 		\include{contents/appendix_interviewfindings}
 		\include{contents/appendix_datapreparationforanalysis}
 		\include{contents/appendix_validationfindings}
-		%\include{contexts/appendix_allliterature}
+	%	\include{contexts/appendix_allliterature}
 		\include{contents/appendix_researchlog}
 	\end{appendices}
-
+	
 \end{document}
