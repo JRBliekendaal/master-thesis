@@ -31,6 +31,9 @@
 \theoremstyle{remark}
 \newtheorem*{remark}{\textcolor{red}{\textbf{Remark}}}
 
+% Footnote spacing with Koma-Script: 
+\deffootnote{1.5em}{1em}{\makebox[1.5em][l]{\thefootnotemark}}
+
 % extend cref with footnote marks
 \crefformat{footnote}{#2\footnotemark[#1]#3}
 
@@ -49,30 +52,11 @@
 \usepackage{xpatch}
 \xpretobibmacro{doi+url}{\printfield{isbn}. }{}{}
 
-% option 1 with useprefix=false
-% https://latex.org/forum/viewtopic.php?t=23146
+% Use prefixes for bibliography: https://latex.org/forum/viewtopic.php?t=23146
 \makeatletter
 \AtBeginDocument{\toggletrue{blx@useprefix}}
 \AtBeginBibliography{\togglefalse{blx@useprefix}}
 \makeatother
-
-% Option 2 with useprefix=on
-%\DeclareSortingNamekeyTemplate{
-%	\keypart{
-%		\namepart{family}
-%	}
-%	\keypart{
-%		\namepart{prefix}
-%	}
-%	\keypart{
-%		\namepart{given}
-%	}
-%	\keypart{
-%		\namepart{suffix}
-%	}
-%}%
-
-%\renewbibmacro*{begentry}{\midsentence}
 
 % Commands
 \newcommand{\needsref}{\textcolor{red}{\textbf{(NEEDS REF)}}}
@@ -106,10 +90,10 @@
 	\include{contents/acknowledgements}	%	Add acknowledgements
 	\include{contents/abstract} 		%	Add the abstract
 	\phantomsection
-	% Change title of Table of Contents
 	\renewcommand*\contentsname{Table of Contents} % Rename the title of Contents to Table of Contents
-	\tableofcontents						%	Add the Table of Contents
 	\addcontentsline{toc}{chapter}{Table of Contents} % Add Table of Contents to the Table of Confents
+	\tableofcontents						%	Add the Table of Contents
+
 
 	% Body of Thesis
 
@@ -149,10 +133,10 @@
 	%	\include{contents/appendix_literatureselection}
 		\include{contents/appendix_interviewsummaries}
 		\include{contents/appendix_interviewfindings}
-		\include{contents/appendix_datapreparationforanalysis}
+	%	\include{contents/appendix_datapreparationforanalysis}
 		\include{contents/appendix_validationfindings}
 	%	\include{contexts/appendix_allliterature}
-		\include{contents/appendix_researchlog}
+	%	\include{contents/appendix_researchlog}
 	\end{appendices}
 	
 \end{document}
