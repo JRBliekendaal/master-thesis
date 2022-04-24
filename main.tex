@@ -44,6 +44,11 @@
 \usepackage{csquotes}
 %\usepackage{citeall}
 
+% Add ISBN references to APA bibliography
+
+\usepackage{xpatch}
+\xpretobibmacro{doi+url}{\printfield{isbn}. }{}{}
+
 % option 1 with useprefix=false
 % https://latex.org/forum/viewtopic.php?t=23146
 \makeatletter
@@ -103,8 +108,8 @@
 	\phantomsection
 	% Change title of Table of Contents
 	\renewcommand*\contentsname{Table of Contents} % Rename the title of Contents to Table of Contents
-	\addcontentsline{toc}{chapter}{Table of Contents} % Add Table of Contents to the Table of Confents
 	\tableofcontents						%	Add the Table of Contents
+	\addcontentsline{toc}{chapter}{Table of Contents} % Add Table of Contents to the Table of Confents
 
 	% Body of Thesis
 
@@ -124,11 +129,11 @@
 
 	\printbibliography[title={References}]			%	Add Bibliography
 	\newpage										%
-	\addcontentsline{toc}{chapter}{List of Figures} % Add List of Figures to Table of Contents
 	\listoffigures									%	Add the List of Figures
+	\addcontentsline{toc}{chapter}{List of Figures} % Add List of Figures to Table of Contents
 	\newpage										%			
-	\addcontentsline{toc}{chapter}{List of Tables} 	% Add List of Tables to Table of Contents
 	\listoftables									%	Add the list of Tables
+	\addcontentsline{toc}{chapter}{List of Tables} 	% Add List of Tables to Table of Contents
 	\printglossary[title=Glossary of Terms] 		% Add Glossary of Terms
 	\printglossary[type=\acronymtype,title=Abbreviations] % Add Abbreviations
 
