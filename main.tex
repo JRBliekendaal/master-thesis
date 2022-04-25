@@ -31,6 +31,18 @@
 \theoremstyle{remark}
 \newtheorem*{remark}{\textcolor{red}{\textbf{Remark}}}
 
+% enable multiple footnotes on the same location
+\let\oldFootnote\footnote
+\newcommand\nextToken\relax
+
+\renewcommand\footnote[1]{%
+	\oldFootnote{#1}\futurelet\nextToken\isFootnote}
+
+\newcommand\isFootnote{%
+	\ifx\footnote\nextToken\textsuperscript{,}\fi}
+
+% \usepackage[multiple]{footmisc}
+
 % Footnote spacing with Koma-Script: 
 \deffootnote{1.5em}{1em}{\makebox[1.5em][l]{\thefootnotemark}}
 
@@ -48,7 +60,6 @@
 %\usepackage{citeall}
 
 % Add ISBN references to APA bibliography
-
 \usepackage{xpatch}
 \xpretobibmacro{doi+url}{\printfield{isbn}. }{}{}
 
