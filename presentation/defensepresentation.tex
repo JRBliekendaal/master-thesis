@@ -1,0 +1,48 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}
+
+
+%Global Background must be put in preamble
+\usebackgroundtemplate%
+{%
+	\includegraphics[width=\paperwidth,height=\paperheight]{images/background.jpg}%
+}
+
+
+
+
+\begin{document}
+
+\begin{frame}{Introduction}
+	\begin{itemize}
+		\item 1
+		\item 2
+		\item 3
+	\end{itemize}
+\end{frame}
+
+
+% Local background must be enclosed by curly braces for grouping.
+{
+	%\usebackgroundtemplate{\includegraphics[width=\paperwidth]{kitten.jpg}}%
+	\begin{frame}{Kitten}
+		\begin{itemize}
+			\item 1
+			\item 2
+			\item 3
+		\end{itemize}
+	\end{frame}
+}
+
+\begin{frame}{Summary}
+	\begin{itemize}
+		\item 1
+		\item 2
+		\item 3
+	\end{itemize}
+\end{frame}
+
+\end{document}
