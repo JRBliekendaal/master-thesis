@@ -12,6 +12,10 @@
 *.cb2
 .*.lb
 
+## macos
+**/.DS_Store
+*.DS_Store
+
 ## Intermediate documents:
 *.dvi
 *.xdv
