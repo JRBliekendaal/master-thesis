@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2022-04-30T20:32:54.383Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/17.4.2 Chrome/100.0.4896.60 Electron/18.0.1 Safari/537.36" etag="1qk5lw5tiNgD93IXOkUI" compressed="false" version="17.4.2" type="device">
+  <diagram id="bfVolq-A_805LvhDllNM" name="Page-1">
+    <mxGraphModel dx="946" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LdssRKA1owO5sWahPovg-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="LdssRKA1owO5sWahPovg-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="315" y="195" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="LdssRKA1owO5sWahPovg-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="LdssRKA1owO5sWahPovg-2" target="LdssRKA1owO5sWahPovg-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdssRKA1owO5sWahPovg-4" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="LdssRKA1owO5sWahPovg-2" target="LdssRKA1owO5sWahPovg-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="490" as="sourcePoint" />
+            <mxPoint x="170" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdssRKA1owO5sWahPovg-5" value="&lt;font face=&quot;CMU Sans Serif Medium&quot; style=&quot;font-size: 20px&quot;&gt;Systems&lt;br&gt;Thinking&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="395" y="130" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LdssRKA1owO5sWahPovg-6" value="&lt;font face=&quot;CMU Sans Serif Medium&quot;&gt;Personal&lt;br&gt;Mastery&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LdssRKA1owO5sWahPovg-7" value="&lt;font face=&quot;CMU Sans Serif Medium&quot;&gt;Mental&lt;br&gt;Models&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="460" y="250" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LdssRKA1owO5sWahPovg-8" value="&lt;font face=&quot;CMU Sans Serif Medium&quot;&gt;Shared&lt;br&gt;Vision&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="355" y="340" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LdssRKA1owO5sWahPovg-9" value="&lt;font face=&quot;CMU Sans Serif Medium&quot;&gt;Team&lt;br&gt;Learning&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="450" y="340" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LdssRKA1owO5sWahPovg-10" value="Learning Organisation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=CMU Sans Serif Medium;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LdssRKA1owO5sWahPovg-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=20;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="LdssRKA1owO5sWahPovg-1" target="LdssRKA1owO5sWahPovg-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="560" as="sourcePoint" />
+            <mxPoint x="380" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
