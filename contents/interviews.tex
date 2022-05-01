@@ -174,42 +174,39 @@ Of the new findings that are not yet treated, the most important two are \textit
 \section{Qualitative Data Analysis}
 \label{sec:dataprep}
 Until now, we have interview results with an explanation of attribute presence in the \gls{ps}. However, with these results, we still cannot say which attributes are of any significance for \gls{antifragile} and \acrshort{ea} in the \gls{ps}. As already stated earlier in \cref{sec:interviewresults}, we need \acrshort{qda} for data interpretation. The data set used for the \acrshort{qda} is available as a structured Microsoft Excel workbook with multiple worksheets. This file is available in the GitHub repository of this research\footnote{\url{https://github.com/JRBliekendaal/master-thesis/blob/57f1489c59832d4c94d8bd6726d4e260f8ad544e/datasets/interviews/qda_steps.xlsx}}. The first step in the \acrshort{qda} is analysing and merging labels (\cref{tab:prepmergingsimilarlabels}). Positive and negative labels were created for the main categories for possible overarching findings. Merging findings with already existing \glspl{attribute} was next. The \glspl{attribute} left are new, not an \gls{attribute} but something else, or just a note to remember something. The analysis did not include the last two. 
-
+\begin{longtable}{@{}p{.05\textwidth}p{.4\textwidth}p{.4\textwidth}@{}}
+	\toprule%
+	\textbf{Step} & \textbf{Description} & \textbf{Rationale} \\%
+	\midrule%
+	\endhead%
+	\hline
+	\endfoot%
+	\caption[Merging similar labels]{Merging similar labels}
+	\label{tab:prepmergingsimilarlabels}
+	\endlastfoot%
+	1	  & Create, positive and negative main categories of Engineering, Systems, CAS, \gls{antifragile}, and Learning organisation. & Need extra categories for merging overarching subjects. \\%
+	2     & Merge \gls{agility} into CAS & How \gls{agility} is interpreted is the same as CAS \\%
+	3     & Merge tinkering into Learning Organisation & How tinkering is interpreted it is the same as Learning Organisation. \\%
+	4     & Merge \gls{robust} and \gls{resilient} into Engineering Resilience & How \gls{robust} and \gls{resilient} is interpreted by interviewees is the same as Engineering Resilience. \\%
+	5     & Merge Governance into Engineering Resilience & How Governance is interpreted is the same as \gls{topdowncc} and \gls{micromanagement}. \\%
+	6     & Merge Shortage on IT Knowledge into no \gls{resourcestoinvest} & Shortage on IT Knowledge can be interpreted as a resource that is not there \\%
+	7     & Merge Applying Best practices into \gls{nonmonotonicity} & Applying Best practices is learning from the past. \\%
+	8     & Merge Development of Knowledge into Learning Organisation & Development of Knowledge within an organisation can be seen as the learning capability of an organisation. \\%
+	9     & Merge Blaming Culture into No Safe Environment & No Safe Environment is a result of a Blaming Culture. \\%
+	10    & Merge Limited \acrshort{ea} into \gls{enterpriseitarchitecting} & Limited \acrshort{ea} is interpreted as the school of thought \gls{enterpriseitarchitecting} \\%
+	11    & Merge conservative into Risk Avoidance & Risk Avoidance is a result of conservative \\%
+	12	  & Ignored Public Responsibility and Risk Avoidance as \glspl{attribute} as possible success factors & Public Responsibility and Risk Avoidance are attributes of the \gls{ps} and are less relevant as an attribute for \gls{antifragile} and \acrshort{ea}. \\%
+	\bottomrule%
+\end{longtable}%
 Normalising the frequency of \glspl{attribute} prevented bias of the interviewees. The presence of an attribute was only counted once per question per interview. Twenty-eight was the maximum score with four interviews and seven main questions.
  
 Interpretation is still not possible at this moment in the \acrshort{qda}. There are still two \glspl{attribute} for most primary \glspl{attribute}, one negative and one positive. Subtracting the negative \gls{attribute} from the positive resulted in a score for the primary \gls{attribute}. The result of normalisation is that the \glspl{attribute} are comparable. If the score is positive, the \gls{attribute} is already a property of the \gls{ps} and inversely. A positive \gls{attribute} is not of any significance, but a negative \gls{attribute} could be. A negative attribute is an property that is absent in the \gls{ps}.
  
 Before defining the significance of \glspl{attribute}, it is necessary to determine the widely supported \glspl{attribute}. An \gls{attribute} only mentioned during one interview is not a widely supported \gls{attribute}. The chance that this is a success factor for the \gls{ps} is low. It is at most a success factor for the sub-system of the interviewee. Based on studies (n=75), the median threshold for reaching consensus is 75\% \parencite[p.~404]{Diamond2014}. When 75\% or more of the interviews mention the attribute, it could be an attribute of any significance.
-\begin{table}[H]
-	\centering
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{p{.05\textwidth}p{.5\textwidth}p{.45\textwidth}}
-			\toprule %
-			\textbf{Step} & \textbf{Description} & \textbf{Rationale} \\%
-			\midrule %
-			1	  & Create, positive and negative main categories of Engineering, Systems, CAS, \gls{antifragile}, and Learning organisation. & Need extra categories for merging overarching subjects. \\%
-			2     & Merge \gls{agility} into CAS & How \gls{agility} is interpreted is the same as CAS \\%
-			3     & Merge tinkering into Learning Organisation & How tinkering is interpreted it is the same as Learning Organisation. \\%
-			4     & Merge \gls{robust} and \gls{resilient} into Engineering Resilience & How \gls{robust} and \gls{resilient} is interpreted by interviewees is the same as Engineering Resilience. \\%
-			5     & Merge Governance into Engineering Resilience & How Governance is interpreted is the same as \gls{topdowncc} and \gls{micromanagement}. \\%
-			6     & Merge Shortage on IT Knowledge into no \gls{resourcestoinvest} & Shortage on IT Knowledge can be interpreted as a resource that is not there \\%
-			7     & Merge Applying Best practices into \gls{nonmonotonicity} & Applying Best practices is learning from the past. \\%
-			8     & Merge Development of Knowledge into Learning Organisation & Development of Knowledge within an organisation can be seen as the learning capability of an organisation. \\%
-			9     & Merge Blaming Culture into No Safe Environment & No Safe Environment is a result of a Blaming Culture. \\%
-			10    & Merge Limited \acrshort{ea} into \gls{enterpriseitarchitecting} & Limited \acrshort{ea} is interpreted as the school of thought \gls{enterpriseitarchitecting} \\%
-			11    & Merge conservative into Risk Avoidance & Risk Avoidance is a result of conservative \\%
-			12	  & Ignored Public Responsibility and Risk Avoidance as \glspl{attribute} as possible success factors & Public Responsibility and Risk Avoidance are attributes of the \gls{ps} and are less relevant as an attribute for \gls{antifragile} and \acrshort{ea}. \\%
-			\bottomrule %
-		\end{tabular}%
-	}%
-	\caption{Merging similar labels}
-	\label{tab:prepmergingsimilarlabels}%
-\end{table}%
-\section{Results of Qualitative Data Analysis}
-\label{sec:resultsofqda}
-After performing \acrfull{qda}, the interview findings can be interpreted. When there is a score of 0 or less for \gls{attenuatevariety}, \gls{amplifyvariety}, and learning organisation \glspl{attribute}, the \gls{attribute} has some degree of certainty that it has a positive influence on achieving \gls{antifragility} in the \gls{ps}. \Glspl{attribute} that scored 0 or less are \textit{\gls{optionality}}, \textit{\gls{nonmonotonicity}}, \textit{\gls{selforganisation}}, \textit{\gls{failfast}}, \textit{\gls{resourcestoinvest}} and \textit{\gls{senecabarbell}} (\cref{fig:scoreofattributes}). All of these \glspl{attribute} are from the category \gls{amplifyvariety}.
 
-The interpretation of the scorse of the newly found \glspl{attribute} is different. The interpretation of these \glspl{attribute} is that they must exist. Both the \glspl{attribute} mentioned have some degree of certainty that it has a positive influence on achieving \gls{antifragility} in the \gls{ps}. These attributes are \textit{\gls{adapttobusinesslanguage}} and \textit{\gls{safeworkingenvironment}} (\cref{fig:scoreofattributes}).
+After performing \acrshort{qda}, the interview findings are interpreted. When there is a score of 0 or less for \gls{attenuatevariety}, \gls{amplifyvariety}, and learning organisation \glspl{attribute}, the \gls{attribute} has some degree of certainty that it has a positive influence on achieving \gls{antifragility} in the \gls{ps}. \Glspl{attribute} that scored 0 or less are \textit{\gls{optionality}}, \textit{\gls{nonmonotonicity}}, \textit{\gls{selforganisation}}, \textit{\gls{failfast}}, \textit{\gls{resourcestoinvest}} and \textit{\gls{senecabarbell}} (\cref{fig:scoreofattributes}). All of these \glspl{attribute} are from the category \gls{amplifyvariety}.
+
+The interpretation of the score of the newly found \glspl{attribute} is different. The interpretation of these \glspl{attribute} is that they must exist. Both the \glspl{attribute} mentioned have some degree of certainty that it has a positive influence on achieving \gls{antifragility} in the \gls{ps}. These attributes are \textit{\gls{adapttobusinesslanguage}} and \textit{\gls{safeworkingenvironment}} (\cref{fig:scoreofattributes}).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/scoreofattributes}
@@ -217,34 +214,33 @@ The interpretation of the scorse of the newly found \glspl{attribute} is differe
 	\label{fig:scoreofattributes}
 \end{figure}
 The \acrshort{ea} school of thought is the last that needs interpretation. The questions on \acrshort{ea} were on \acrshort{ea} practices in the \gls{ps}. Currently, in the \gls{ps} the leading school of thought is \gls{enterpriseitarchitecting}. The \acrshort{ea} practise of the \gls{ps} must change to achieve \gls{antifragility} with \acrshort{ea}. \acrshort{ea} should foster the school of thought of \gls{enterpriseecologicaladaptation}. \Gls{enterpriseecologicaladaptation} is the school that has some certainty that it has a positive influence on achieving \gls{antifragility} in the \gls{ps}  (\cref{sec:tbenterprisearchitecture}).
-
 \section{Attributes most likely to be a success factor}
 \label{sec:attributeslikelysf}
-Based on the used data set and the interpretations of this data set, the attributes (\cref{tab:interviewpossiblesf}) are, with some degree of certainty, possible \glspl{attribute} that have a positive influence on \acrshort{ea} in achieving \gls{antifragility} in the \gls{ps}. As already mentioned in \cref{ch:interviews} the attributes of \acrshort{ea} are implicitly part of the school of thought \textit{\gls{enterpriseecologicaladaptation}}. The school of thought is an aggregation of its \glspl{attribute}.
-\begin{table}[H]
-	\begin{center}
-			\begin{tabular}{@{}ll@{}}
-				\toprule%
-				\textbf{Attribute} & \textbf{Category}  \\%
-				\midrule%
-				\Gls{optionality} & \Gls{amplifyvariety} \\%
-				\Gls{nonmonotonicity} & \Gls{amplifyvariety} \\%
-				\Gls{selforganisation} & \Gls{amplifyvariety} \\%
-				\Gls{failfast} & \Gls{amplifyvariety} \\%
-				\Gls{resourcestoinvest} & \Gls{amplifyvariety} \\%
-				\Gls{senecabarbell} & \Gls{amplifyvariety} \\%
-				\Gls{systeminenvironment} & \acrshort{ea} \Gls{enterpriseecologicaladaptation} \\%
-				\Gls{holisticsystemicstance} & \acrshort{ea} \Gls{enterpriseecologicaladaptation} \\%
-				\Gls{organisationallearning} & \acrshort{ea} \Gls{enterpriseecologicaladaptation} \\%
-				\Gls{environmentallearning} & \acrshort{ea} \Gls{enterpriseecologicaladaptation} \\%
-				\Gls{intraorganisationalcoherency} & \acrshort{ea} \Gls{enterpriseecologicaladaptation} \\%
-				\Gls{systeminenvironmentcoevolutionlearning} & \acrshort{ea} \Gls{enterpriseecologicaladaptation} \\%
-				\Gls{safeworkingenvironment} & New finding \\%
-				\Gls{adapttobusinesslanguage} & New finding \\%
-				\bottomrule%
-			\end{tabular}
-		\caption{Possible success factors identified from interviews}
-		\label{tab:interviewpossiblesf}
-	\end{center}
-\end{table}
+Based on the used data set and the interpretations of this data set, the attributes (\cref{tab:interviewpossiblesf}) are, with some degree of certainty, possible \glspl{attribute} that have a positive influence on \acrshort{ea} in achieving \gls{antifragility} in the \gls{ps}. As already mentioned in \cref{ch:interviews} the attributes of \acrshort{ea} are implicitly part of the school of thought \textit{\gls{enterpriseecologicaladaptation}}.
+\begin{longtable}{@{}ll@{}}
+	\toprule%
+	\textbf{Attribute} & \textbf{Category}  \\%
+	\midrule%
+	\endhead%
+	\hline
+	\endfoot%
+	\caption[Possible success factors identified from interviews]{Possible success factors identified from interviews}
+	\label{tab:interviewpossiblesf}
+	\endlastfoot%
+	\Gls{optionality} & \Gls{amplifyvariety} \\%
+	\Gls{nonmonotonicity} & \Gls{amplifyvariety} \\%
+	\Gls{selforganisation} & \Gls{amplifyvariety} \\%
+	\Gls{failfast} & \Gls{amplifyvariety} \\%
+	\Gls{resourcestoinvest} & \Gls{amplifyvariety} \\%
+	\Gls{senecabarbell} & \Gls{amplifyvariety} \\%
+	\Gls{systeminenvironment} & \acrshort{ea} \Gls{enterpriseecologicaladaptation} \\%
+	\Gls{holisticsystemicstance} & \acrshort{ea} \Gls{enterpriseecologicaladaptation} \\%
+	\Gls{organisationallearning} & \acrshort{ea} \Gls{enterpriseecologicaladaptation} \\%
+	\Gls{environmentallearning} & \acrshort{ea} \Gls{enterpriseecologicaladaptation} \\%
+	\Gls{intraorganisationalcoherency} & \acrshort{ea} \Gls{enterpriseecologicaladaptation} \\%
+	\Gls{systeminenvironmentcoevolutionlearning} & \acrshort{ea} \Gls{enterpriseecologicaladaptation} \\%
+	\Gls{safeworkingenvironment} & New finding \\%
+	\Gls{adapttobusinesslanguage} & New finding \\%
+	\bottomrule%
+\end{longtable}%
 %This set of possible success factors was used as a proposal to the expert group for validation (\cref{ch:expertgroup}).
