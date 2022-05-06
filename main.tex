@@ -27,6 +27,9 @@
 \usepackage[nameinlink,noabbrev]{cleveref}
 \MakePerPage{footnote} %the perpage package command
 
+% Packge for background
+\usepackage{eso-pic}
+
 % Add remark without numbering for writing notes
 \usepackage{amsthm}
 \theoremstyle{remark}
@@ -56,6 +59,9 @@
 \DeclareLanguageMapping{british}{british-apa}
 \addbibresource{bibliography.bib}
 \usepackage{csquotes}
+
+% Restrict Hyphenation with cites in the text
+\AtEveryCitekey{\hyphenrules{nohyphenation}}
 
 % Add ISBN references to APA bibliography
 \usepackage{xpatch}
@@ -91,10 +97,10 @@
 	% Head of thesis
 
 	%\include{contents/coverpage}
-	%\include{contents/managementsummary}
 	\include{contents/titlepage}		%	Add the title page
 	\include{contents/quotes}			%	Quotes
 	\include{contents/thesisinformation} %	Thesis Information
+	\include{contents/managementsummary}
 	\include{contents/declaration}		% Declaration of Authorship
 	\pagenumbering{roman}				%	Set pagenumbering to roman
 	\include{contents/acknowledgements}	%	Add acknowledgements
