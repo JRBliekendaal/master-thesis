@@ -134,14 +134,19 @@ The variability of the ratings was low. There was only one abstain on the releva
 \end{table}%
 \section{Attributes most likely to be a success factor}
 \label{sec:expertattributessf}
-The used research approach is a qualitative method. The number of participants was ten. We believe that n=10 is too small of a sample size to use pure quantitative tools. We decided not to use variability as a factor for selection. Instead, we are using a consensus model—the same as that of the interviews \cref{sec:dataprep}. With the interviews, we used the consensus model to determine that when 75\% of the interviews mentioned the \gls{attribute}, it could be an \gls{attribute} of any significance. For the results of the expert group, we decided to use the rule that at least 75\% of the experts must rate an \gls{attribute} a six or higher to be an attribute of any significance. We round down the 75\% sample size to a whole number. Abstains are not used in this calculation. We decided to use a rating of six because it is more than only half, it will make it even more probable that an attribute is of any significance.
+The used research approach is a qualitative method. The number of participants was ten. We believe that n=10 is too small of a sample size to use pure quantitative tools. We decided to use the following rules for selection. 
+\begin{enumerate}
+	\item{\textbf{Variability.} The attribute must have a variability of 40\% or less. Exceptions are possible when the expert group decided on it after discussion. If there is an exception it will be noted.}
+	\item{\textbf{Rating.} The attributes left from the first rule must have a rating of 6 or higher to be noted as an attribute of any significance.}
+\end{enumerate}
 
 \subsection{Selected antifragile attributes}
 \label{sub:validationselectedafattributes}
-Applying the rule for selection results in three dropped and six accepted \glspl{attribute} (\cref{tab:expertgrouppossiblesf}). The three dropped \glspl{attribute} are \gls{senecabarbell}, \gls{outsideincollaboration}, and \gls{datagovernanceplanes}. The accepted \glspl{attribute} are \gls{optionality}, \gls{nonmonotonicity}, \gls{selforganisation}, \gls{failfast}, \gls{resourcestoinvest}, and \gls{safeworkingenvironment}. None of the expert group's proposed \glspl{attribute} was selected. The rule dropped only one \gls{attribute} from the literature study, \gls{senecabarbell}.
-\begin{longtable}{@{}lcccc@{}}
+Applying the rules for selection resulted in four dropped and five accepted \glspl{attribute} (\cref{tab:expertgrouppossiblesf}). The four dropped \glspl{attribute} are \gls{nonmonotonicity}, \gls{senecabarbell}, \gls{outsideincollaboration}, and \gls{datagovernanceplanes}. The accepted \glspl{attribute} are \gls{optionality}, \gls{selforganisation}, \gls{failfast}, \gls{resourcestoinvest}, and \gls{safeworkingenvironment}. None of the expert group's proposed \glspl{attribute} was selected. The rule dropped only two \gls{attribute} from the literature study, \gls{nonmonotonicity} and \gls{senecabarbell}.
+{\small\tabcolsep=3pt  % hold it local
+\begin{longtable}{@{}lccc@{}}
 	\toprule%
-	\textbf{Attribute} & \textbf{Votes} & \textbf{75\%} & \textbf{Votes $\geq$ 6} & \textbf{Selected} \\%
+	\textbf{Attribute} & \textbf{Variability} & \textbf{Average rating} & \textbf{Selected} \\%
 	\midrule%
 	\endhead%
 	\hline
@@ -149,24 +154,25 @@ Applying the rule for selection results in three dropped and six accepted \glspl
 	\caption[Identified antifragile attributes by the expert group]{Identified antifragile attributes by the expert group}
 	\label{tab:expertgrouppossiblesf}
 	\endlastfoot%
-	\Gls{optionality} & 10 & 7 & 8 & \checkmark \\%
-	\Gls{nonmonotonicity} & 10 & 7 & 8 & \checkmark \\%
-	\Gls{selforganisation} & 10 & 7 & 10 & \checkmark \\%
-	\Gls{failfast} & 10 & 7 & 9 & \checkmark \\%
-	\Gls{resourcestoinvest} & 9 & 6 & 6 &  \checkmark\\%
-	\Gls{senecabarbell} & 9 & 6 & 4 & \\%
-	\Gls{safeworkingenvironment} & 10 & 7 & 9 & \checkmark \\%
-	\Gls{outsideincollaboration} & 10 & 7 & 6 & \\%
-	\Gls{datagovernanceplanes} & 9 & 6 & 3 & \\%
+	\Gls{optionality} & 32\% & 6,9 & \checkmark \\%
+	\Gls{nonmonotonicity} & 51\% & 7 &  \\%
+	\Gls{selforganisation} & 23\% & 8,2 & \checkmark  \\%
+	\Gls{failfast} & 35\% & 7,8 & \checkmark  \\%
+	\Gls{resourcestoinvest} & 36\% & 6,7 & \checkmark \\%
+	\Gls{senecabarbell} & 37\% & 5,8 &  \\%
+	\Gls{safeworkingenvironment} & 31\% & 7,4 & \checkmark  \\%
+	\Gls{outsideincollaboration} & 55\% & 6,2 &  \\%
+	\Gls{datagovernanceplanes} & 56\% & 4,4 &  \\%
 	\bottomrule%
 \end{longtable}%
-
+}%
 \subsection{Selected Enterprise Architecture attributes}
 \label{sub:validationselectedeaattributes}
-When we applied the same rule to the \glspl{attribute} of \acrlong{ea}, we have a result of three dropped attributes and nine \glspl{attribute} that are selected (\cref{tab:expertgrouppossiblesfea}). The three dropped \glspl{attribute} are \gls{agileenterprise}, \gls{realtimetrust}, and \gls{alwaysfittingarchitecture}. The nine selected attributes are \gls{systeminenvironment}, \gls{holisticsystemicstance}, \gls{organisationallearning}, \gls{environmentallearning}, \gls{intraorganisationalcoherency}, \gls{systeminenvironmentcoevolutionlearning}, \gls{adapttobusinesslanguage}, \gls{fosterdialogue}, and \gls{architecturevalidation}. Two out of five attributes that were proposed by the expert group are selected. \Gls{agileenterprise}, \gls{realtimetrust}, and \gls{alwaysfittingarchitecture} were dropped.
-\begin{longtable}{@{}lcccc@{}}
+Applying the rules for selection resulted in five dropped \glspl{attribute} and seven selected \glspl{attribute} (\cref{tab:expertgrouppossiblesfea}). The five dropped \glspl{attribute} are \gls{holisticsystemicstance}, \gls{organisationallearning}, \gls{agileenterprise}, \gls{realtimetrust}, and \gls{alwaysfittingarchitecture}. The seven selected attributes are \gls{systeminenvironment}, \gls{environmentallearning}, \gls{intraorganisationalcoherency}, \gls{systeminenvironmentcoevolutionlearning}, \gls{adapttobusinesslanguage}, \gls{fosterdialogue}, and \gls{architecturevalidation}. Two out of five attributes that were proposed by the expert group are selected. \Gls{agileenterprise}, \gls{realtimetrust}, and \gls{alwaysfittingarchitecture} were dropped.
+{\small\tabcolsep=3pt  % hold it local
+\begin{longtable}{@{}lccc@{}}
 	\toprule%
-	\textbf{Attribute} & \textbf{Votes} & \textbf{75\%} & \textbf{Votes $\geq$ 6} & \textbf{Selected} \\%
+	\textbf{Attribute} & \textbf{Variability} & \textbf{Average rating} & \textbf{Selected} \\%
 	\midrule%
 	\endhead%
 	\hline
@@ -174,21 +180,21 @@ When we applied the same rule to the \glspl{attribute} of \acrlong{ea}, we have 
 	\caption[Identified Enterprise Architecture attributes by the expert group]{Identified Enterprise Architecture attributes by the expert group}
 	\label{tab:expertgrouppossiblesfea}
 	\endlastfoot%
-	\Gls{systeminenvironment} & 10 & 7 & 9 & \checkmark  \\%
-	\Gls{holisticsystemicstance} & 10 & 7 & 8 & \checkmark \\%
-	\Gls{organisationallearning}  & 10 & 7 & 9 & \checkmark \\%
-	\Gls{environmentallearning} & 10 & 7 & 9 & \checkmark \\%
-	\Gls{intraorganisationalcoherency} & 10 & 7 & 8 & \checkmark \\%
-	\Gls{systeminenvironmentcoevolutionlearning} & 10 & 7 & 8 & \checkmark \\%
-	\Gls{adapttobusinesslanguage} & 10 & 7 & 8 & \checkmark \\%
-	\Gls{agileenterprise} & 10 & 7 & 6 & \\%
-	\Gls{realtimetrust} & 9 & 6 & 5 & \\%
-	\Gls{fosterdialogue} & 10 & 7 & 8 & \checkmark \\%
-	\Gls{architecturevalidation} & 10 & 7 & 9 & \checkmark \\%
-	\Gls{alwaysfittingarchitecture} & 9 & 6 & 5 & \\%
+	\Gls{systeminenvironment} & 28\% & 7,2 & \checkmark  \\%
+	\Gls{holisticsystemicstance} & 47\% & 7 &  \\%
+	\Gls{organisationallearning}  & 44\% & 7,3 & \\%
+	\Gls{environmentallearning} & 29\% & 7,7 & \checkmark  \\%
+	\Gls{intraorganisationalcoherency} & 31\% & 6,4 & \checkmark  \\%
+	\Gls{systeminenvironmentcoevolutionlearning} & 36\% & 6,6 & \checkmark \\%
+	\Gls{adapttobusinesslanguage} & 35\% & 7,1 & \checkmark  \\%
+	\Gls{agileenterprise} & 50\% & 6,4 &  \\%
+	\Gls{realtimetrust} & 54\% & 5,6 &  \\%
+	\Gls{fosterdialogue} & 32\% & 6,9 & \checkmark \\%
+	\Gls{architecturevalidation} & 24\% & 7,4 & \checkmark \\%
+	\Gls{alwaysfittingarchitecture} & 46\% & 5,8 &  \\%
 	\bottomrule%
 \end{longtable}%
-
+}%
 \subsection{Selected attributes as possible success factors}
 \label{sub:validationselectedattributesassf}
 Combining both sets (\cref{tab:expertgrouppossiblesf,tab:expertgrouppossiblesfea}) gives an overview. This overview summarises the \glspl{attribute} that are rated best by the expert group (\cref{tab:expertgroupp2ossiblesf}). These \glspl{attribute} can be significant in achieving \gls{antifragility} with \acrlong{ea} in the Dutch \gls{ps}. The set contains fifteen \gls{attribute}. Six \gls{antifragile} \glspl{attribute} from which one new discovered \gls{attribute}. Furthermore, nine \acrlong{ea} \glspl{attribute} from which two new discovered \glspl{attribute}.
