@@ -63,8 +63,10 @@
 \addbibresource{bibliography.bib}
 \usepackage{csquotes}
 
-% Restrict Hyphenation with cites in the text
+% Restrict Hyphenation
 \AtEveryCitekey{\hyphenrules{nohyphenation}}
+\input{contents/hyphenationexceptions}
+\usepackage{microtype}
 
 % Add ISBN references to APA bibliography
 \usepackage{xpatch}
